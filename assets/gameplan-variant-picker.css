@@ -1,0 +1,342 @@
+/* ============================================
+   GamePlan Skincare — Variant Picker Styles
+   File: assets/gameplan-variant-picker.css
+   ============================================ */
+
+
+
+/* ============================================
+   Pack size pills
+   ============================================ */
+
+.gp-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  width: 100%;
+}
+
+.gp-pill {
+  position: relative;
+  border: 1.5px solid #e0dcdc;
+  border-radius: 10px;
+  padding: 12px 10px 10px;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+  background: #ffffff;
+  text-align: center;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.gp-pill:hover { border-color: #bbb; background: #fafafa; }
+.gp-pill.active { border: 2px solid #EF3340; background: #ffffff; }
+.gp-pill:focus-visible { outline: 3px solid rgba(239,51,64,0.3); outline-offset: 2px; }
+
+.gp-badge {
+  position: absolute;
+  top: -11px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-heading-family, 'Epilogue', sans-serif);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+  line-height: 1.4;
+}
+
+.gp-badge--popular { background: #00A341; color: #ffffff; }
+.gp-badge--value   { background: #FFB74A; color: #140A0A; }
+
+.gp-check {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #EF3340;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.gp-pill.active .gp-check { opacity: 1; }
+
+.gp-pill__pack {
+  font-family: var(--font-heading-family, 'Epilogue', sans-serif);
+  font-size: 18px;
+  font-weight: 700;
+  color: #140A0A;
+  line-height: 1;
+  letter-spacing: 0.01em;
+}
+
+.gp-pill__ea {
+  font-family: var(--font-body-family, 'Epilogue', sans-serif);
+  font-size: 11px;
+  color: #888;
+  line-height: 1.2;
+}
+
+.gp-pill__save {
+  font-family: var(--font-heading-family, 'Epilogue', sans-serif);
+  font-size: 13px;
+  font-weight: 700;
+  color: #EF3340;
+  letter-spacing: 0.03em;
+  line-height: 1.2;
+}
+
+.gp-pill__ship {
+  font-family: var(--font-heading-family, 'Epilogue', sans-serif);
+  font-size: 13px;
+  font-weight: 700;
+  color: #00A341;
+  letter-spacing: 0.03em;
+  line-height: 1.2;
+}
+
+
+/* ============================================
+   PayWhirl — full reset to flat row layout
+   ============================================ */
+
+/* Strip everything from outer fieldset */
+.paywhirl-plan-selector {
+  all: unset !important;
+  display: block !important;
+  width: 100% !important;
+  font-family: var(--font-body-family, 'Epilogue', sans-serif) !important;
+  box-sizing: border-box !important;
+}
+
+/* Hide clutter */
+.paywhirl-info-popup,
+.paywhirl-plan-selector-old-snippet-warning,
+.paywhirl-add-to-existing-subscription-button,
+.paywhirl-plan-selector-header,
+.paywhirl-plan-selector-icon,
+.paywhirl-price-from,
+.paywhirl-price-each,
+.paywhirl-plan-selector-group-price,
+#paywhirl-one-time-purchase-group .paywhirl-plan-selector-plan {
+  display: none !important;
+}
+
+/* Container — simple block, no border, no bg */
+.paywhirl-plan-selector-container {
+  all: unset !important;
+  display: block !important;
+  width: 100% !important;
+}
+
+.paywhirl-plan-selector-group-container {
+  display: block !important;
+  width: 100% !important;
+  border: none !important;
+  background: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Each option — card, always 2px border to prevent layout shift on selection */
+.paywhirl-plan-selector-group {
+  all: unset !important;
+  display: block !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  padding: 13px 16px !important;
+  border: 2px solid #e0dcdc !important;
+  border-radius: 10px !important;
+  margin-bottom: 8px !important;
+  cursor: pointer !important;
+  background: #ffffff !important;
+  transition: border-color 0.15s !important;
+}
+
+.paywhirl-plan-selector-group:last-child {
+  margin-bottom: 0 !important;
+}
+
+.paywhirl-plan-selector-group:hover {
+  border-color: #bbb !important;
+}
+
+.paywhirl-plan-selector-group.paywhirl-group-selected {
+  border-color: #EF3340 !important;
+  background: #ffffff !important;
+}
+
+/* Label — flex row */
+.paywhirl-plan-selector-group > .paywhirl-label {
+  all: unset !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  width: 100% !important;
+  cursor: pointer !important;
+  box-sizing: border-box !important;
+}
+
+/* Radio */
+.paywhirl-plan-selector-group .paywhirl-label > input[type="radio"] {
+  all: unset !important;
+  display: block !important;
+  width: 18px !important;
+  height: 18px !important;
+  min-width: 18px !important;
+  border-radius: 50% !important;
+  border: 2px solid #ccc !important;
+  background: #ffffff !important;
+  cursor: pointer !important;
+  flex-shrink: 0 !important;
+  box-sizing: border-box !important;
+  position: relative !important;
+}
+
+.paywhirl-plan-selector-group.paywhirl-group-selected .paywhirl-label > input[type="radio"] {
+  border-color: #EF3340 !important;
+  background: radial-gradient(circle, #EF3340 40%, #ffffff 45%) !important;
+}
+
+/* Group name */
+.paywhirl-plan-selector-group-name {
+  all: unset !important;
+  display: block !important;
+  font-family: var(--font-heading-family, 'Epilogue', sans-serif) !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #140A0A !important;
+  letter-spacing: 0.02em !important;
+  line-height: 1.2 !important;
+  flex: 1 !important;
+}
+
+/* Subtitles */
+#paywhirl-plan-selector-group-3c83eb3466eb47e99a3f04acc7f0702a4d7e1704 .paywhirl-plan-selector-group-name::after {
+  content: 'Cancel or pause anytime' !important;
+  display: block !important;
+  font-family: var(--font-body-family, 'Epilogue', sans-serif) !important;
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  color: #aaa !important;
+  margin-top: 2px !important;
+}
+
+#paywhirl-one-time-purchase-group .paywhirl-plan-selector-group-name::after {
+  content: 'No commitment' !important;
+  display: block !important;
+  font-family: var(--font-body-family, 'Epilogue', sans-serif) !important;
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  color: #aaa !important;
+  margin-top: 2px !important;
+}
+
+/* Right side: badge + compare + price */
+.paywhirl-plan-selector-price {
+  all: unset !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 7px !important;
+  margin-left: auto !important;
+  flex-shrink: 0 !important;
+}
+
+/* 15% OFF badge on subscribe right side */
+#paywhirl-plan-selector-group-3c83eb3466eb47e99a3f04acc7f0702a4d7e1704 .paywhirl-plan-selector-price::before {
+  content: '15% OFF' !important;
+  font-family: var(--font-heading-family, 'Epilogue', sans-serif) !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.07em !important;
+  background: #00A341 !important;
+  color: #fff !important;
+  padding: 2px 8px !important;
+  border-radius: 20px !important;
+  white-space: nowrap !important;
+}
+
+.paywhirl-compare-at-price {
+  all: unset !important;
+  font-family: var(--font-body-family, 'Epilogue', sans-serif) !important;
+  font-size: 11px !important;
+  color: #bbb !important;
+  text-decoration: line-through !important;
+}
+
+.paywhirl-plan-selector-price .paywhirl-price {
+  all: unset !important;
+  font-family: var(--font-heading-family, 'Epilogue', sans-serif) !important;
+  font-size: 17px !important;
+  font-weight: 700 !important;
+  color: #140A0A !important;
+}
+
+/* Frequency row — always takes up space to prevent height shift */
+.paywhirl-plan-selector-plan {
+  all: unset !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  padding: 8px 0 4px 30px !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  visibility: visible !important;
+}
+
+/* Hide contents visually but keep height — only on non-selected subscribe group */
+.paywhirl-plan-selector-group:not(.paywhirl-group-selected) .paywhirl-plan-selector-plan {
+  visibility: hidden !important;
+}
+
+.paywhirl-plan-selector-plan > label {
+  all: unset !important;
+  font-family: var(--font-body-family, 'Epilogue', sans-serif) !important;
+  font-size: 11px !important;
+  font-weight: 500 !important;
+  color: #888 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.08em !important;
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+}
+
+.paywhirl-plan-selector-plan select {
+  font-family: var(--font-body-family, 'Epilogue', sans-serif) !important;
+  font-size: 13px !important;
+  color: #140A0A !important;
+  border: 1.5px solid #e0dcdc !important;
+  border-radius: 8px !important;
+  padding: 5px 10px !important;
+  background: #ffffff !important;
+  cursor: pointer !important;
+  outline: none !important;
+  max-width: 150px !important;
+}
+
+.paywhirl-plan-selector-plan select:focus {
+  border-color: #EF3340 !important;
+}
+
+/* Kill PayWhirl's group container border/padding */
+.paywhirl-plan-selector .paywhirl-plan-selector-group-container {
+  position: static !important;
+  padding: 0 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  margin-bottom: 0 !important;
+}

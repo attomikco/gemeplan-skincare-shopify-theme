@@ -1,0 +1,167 @@
+{% comment %}
+  GamePlan Skincare — Custom Pack Size Picker
+  File: snippets/gameplan-variant-picker.liquid
+
+  Hooks into your theme's Alpine.js + handleProductFormChange() system.
+  Drop this inside snippets/ and call it from product__options.liquid.
+  See integration note at the bottom of this file.
+{% endcomment %}
+
+{% for product_option in product.options_with_values %}
+  {% assign downcase_option_name = product_option.name | downcase %}
+
+  {% if downcase_option_name contains 'pack' or downcase_option_name contains 'size' %}
+    <div class="flex w-full flex-col gap-2">
+
+      {% comment %} Option label — matches theme pattern {% endcomment %}
+      <label
+        {% unless settings.show_option_labels %}class="sr-only"{% endunless %}
+        for="{{ product.id }}-option_{{ product_option.position }}"
+      >
+        {{ product_option.name }}
+        {% for value in product_option.values %}
+          <span
+            :class="{
+              'inline': option{{ product_option.position }} == `{{ value | replace: ' ', '+' | base64_encode }}`,
+              'hidden': option{{ product_option.position }} != `{{ value | replace: ' ', '+' | base64_encode }}`
+            }"
+            x-cloak
+          >: {{ value -}}
+          </span>
+        {% endfor %}
+      </label>
+
+      {% comment %} Pill grid {% endcomment %}
+      <div class="gp-grid">
+
+        {% for value in product_option.values %}
+
+          {% comment %}
+            Per-variant metadata.
+            Update gp_ea prices to match your actual Shopify variant prices.
+            The matching is done on the variant label (downcase, contains).
+          {% endcomment %}
+          {% assign gp_ea      = '' %}
+          {% assign gp_save    = '' %}
+          {% assign gp_ship    = false %}
+          {% assign gp_badge   = '' %}
+          {% assign gp_badge_t = '' %}
+          {% assign variant_lc = value | downcase %}
+
+          {% if variant_lc contains '1' %}
+            {% assign gp_ea = '$12.00' %}
+          {% endif %}
+          {% if variant_lc contains '3' %}
+            {% assign gp_ea   = '$11.40' %}
+            {% assign gp_save = 'Save 5%' %}
+            {% assign gp_ship = true %}
+          {% endif %}
+          {% if variant_lc contains '6' %}
+            {% assign gp_ea      = '$10.80' %}
+            {% assign gp_save    = 'Save 10%' %}
+            {% assign gp_ship    = true %}
+            {% assign gp_badge   = 'Popular' %}
+            {% assign gp_badge_t = 'popular' %}
+          {% endif %}
+          {% if variant_lc contains '12' %}
+            {% assign gp_ea      = '$10.20' %}
+            {% assign gp_save    = 'Save 15%' %}
+            {% assign gp_ship    = true %}
+            {% assign gp_badge   = 'Best value' %}
+            {% assign gp_badge_t = 'value' %}
+          {% endif %}
+
+          {% comment %} Availability — respects theme's unavailable_indication setting {% endcomment %}
+          {% assign option_disabled = false %}
+          {% if settings.unavailable_indication == 'empty' %}
+            {% assign option_disabled = true %}
+            {% for variant in product.variants %}
+              {% if variant.available %}
+                {% assign value_handle = value | replace: ' ', '+' | base64_encode %}
+                {% for opt in variant.options %}
+                  {% assign opt_handle = opt | replace: ' ', '+' | base64_encode %}
+                  {% if opt_handle == value_handle %}
+                    {% assign option_disabled = false %}
+                    {% break %}
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+
+          <button
+            type="button"
+            class="gp-pill{% if value.selected %} active{% endif %}{% if option_disabled %} anglethrough{% endif %}"
+            :class="{
+              'active': option{{ product_option.position }} == `{{ value | replace: ' ', '+' | base64_encode }}`
+            }"
+            data-option-value-id="{{ value.id }}"
+            data-option-position="{{ product_option.position }}"
+            data-variant-id="{{ value.variant.id }}"
+            data-value="{{ value | replace: ' ', '+' | base64_encode }}"
+            :disabled="product_loading"
+            @click="
+              option{{ product_option.position }} = `{{ value | replace: ' ', '+' | base64_encode }}`;
+              {% if value.product_url %}
+                handleCombinedListing('{{ value.product_url }}', '{{ section.id }}');
+              {% else %}
+                handleProductFormChange(null, '{{ section.id }}', '{{ product.handle | handle }}', '{{ product_option.position }}', '{{ value.id }}');
+              {% endif %}
+            "
+          >
+            {% if gp_badge != '' %}
+              <span class="gp-badge gp-badge--{{ gp_badge_t }}">{{ gp_badge }}</span>
+            {% endif %}
+
+            <span class="gp-check" aria-hidden="true">
+              <svg viewBox="0 0 12 12" fill="none" width="10" height="10">
+                <path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+
+            <span class="gp-pill__pack">{{ value }}</span>
+
+            {% if gp_ea != '' %}
+              <span class="gp-pill__ea">{{ gp_ea }}/pack</span>
+            {% endif %}
+            {% if gp_save != '' %}
+              <span class="gp-pill__save">{{ gp_save }}</span>
+            {% endif %}
+            {% if gp_ship %}
+              <span class="gp-pill__ship">Free shipping</span>
+            {% endif %}
+
+          </button>
+
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
+
+{% comment %}
+====================================================================
+INTEGRATION — snippets/product__options.liquid
+====================================================================
+
+Find the large {% else %} block that renders the button grid (search
+for "Buttons for color options or all options"). Inside it, find the
+inner {% else %} that wraps the <div class="relative flex w-full...">
+buttons loop.
+
+Replace that entire inner {% else %}...{% endif %} with:
+
+  {% else %}
+    {% if downcase_option_name contains 'pack' or downcase_option_name contains 'size' %}
+      {% render 'gameplan-variant-picker', product: product, section: section, settings: settings %}
+    {% else %}
+      <div class="relative flex w-full flex-wrap items-start gap-2 ...">
+        ... (leave the original buttons loop here unchanged) ...
+      </div>
+    {% endif %}
+  {% endif %}
+
+This means only your pack/size option gets the custom pills.
+All other options (color, etc.) keep the original theme buttons.
+====================================================================
+{% endcomment %}
