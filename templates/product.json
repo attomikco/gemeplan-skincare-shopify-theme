@@ -1,1 +1,798 @@
-{"sections":{"1638995507af787164":{"type":"product__main","blocks":{"liquid_L9kTGq":{"type":"liquid","settings":{"liquid":"{% comment %}\n  GamePlan — Top Highlight Badge\n  Add via: Customize > Add block > Custom Liquid\n{% endcomment %}\n\n<style>\n  .gp-top-badge {\n    display: inline-flex;\n    align-items: center;\n    gap: 4px;\n    font-size: 10px;\n    font-weight: 700;\n    letter-spacing: 1px;\n    text-transform: uppercase;\n    color: #EF3340;\n    border: 1px solid rgba(239,51,64,0.25);\n    padding: 4px 10px;\n    border-radius: 4px;\n    background: rgba(239,51,64,0.05);\n    font-family: var(--font-body-family);\n    white-space: nowrap;\n    overflow: hidden;\n    text-overflow: ellipsis;\n    max-width: 100%;\n  }\n<\/style>\n\n<div class=\"gp-top-badge\">🏃 Post-Sweat · Alcohol-Free · Biodegradable<\/div>","spacing_top":10,"spacing_bottom":0,"color_scheme":"color__bg-transparent","color_border":"color__border-divider-1","style_border":"","position":"right"}},"853ae7f0-85c9-45dc-8326-6e4044bcf5e5":{"type":"title","settings":{"content":"<p>High-performance hydrators and calming actives built to protect and repair skin under heat, sweat, and friction.<\/p>","spacing_top":10,"spacing_bottom":0,"color_scheme":"color__bg-transparent","color_border":"color__border-divider-1","style_border":"","position":"right","savings_badge":"none","enable_badges":true,"enable_type":false,"enable_vendor":false,"enable_sku":false}},"klaviyo_reviews_average_rating_Ww9hgC":{"type":"shopify:\/\/apps\/klaviyo-reviews\/blocks\/average-rating\/db20e365-d984-4ac4-9655-e1588d951ca9","settings":{"product":"{{product}}"}},"liquid_GjLPeC":{"type":"liquid","settings":{"liquid":"{% comment %}\n  GamePlan — Product Info Callouts\n  Add via: Customize > Add block > Custom Liquid\n{% endcomment %}\n\n<style>\n  .gp-stat-row {\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n    gap: 10px;\n    width: 100%;\n    box-sizing: border-box;\n    margin-bottom: 16px;\n  }\n  .gp-stat-box {\n    background: #fff;\n    border: 1.5px solid #EF3340;\n    border-radius: 12px;\n    padding: 14px 10px;\n    text-align: center;\n    box-sizing: border-box;\n  }\n  .gp-stat-main {\n    display: flex;\n    align-items: baseline;\n    justify-content: center;\n    gap: 2px;\n  }\n  .gp-stat-num {\n    font-size: 32px;\n    font-weight: 900;\n    color: #EF3340;\n    line-height: 1;\n  }\n  .gp-stat-unit {\n    font-size: 13px;\n    font-weight: 700;\n    color: #EF3340;\n    line-height: 1;\n    text-transform: uppercase;\n  }\n  .gp-stat-label {\n    font-size: 12px;\n    color: #140A0A;\n    margin-top: 6px;\n    font-weight: 700;\n  }\n\n  .gp-feat-grid {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 10px;\n    margin-bottom: 16px;\n  }\n  .gp-feat-card {\n    background: #fff;\n    border: 1.5px solid #e0dcdc;\n    border-radius: 12px;\n    padding: 14px 12px;\n    display: flex;\n    align-items: flex-start;\n    gap: 12px;\n    box-sizing: border-box;\n  }\n  .gp-feat-icon {\n    width: 38px;\n    height: 38px;\n    border-radius: 10px;\n    background: #EF3340;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    flex-shrink: 0;\n  }\n  .gp-feat-icon svg {\n    width: 18px;\n    height: 18px;\n  }\n  .gp-feat-title {\n    font-size: 13px;\n    font-weight: 700;\n    color: #140A0A;\n    margin-bottom: 3px;\n    line-height: 1.2;\n  }\n  .gp-feat-body {\n    font-size: 12px;\n    color: #888;\n    line-height: 1.5;\n  }\n\n  .gp-use-label {\n    font-size: 11px;\n    font-weight: 700;\n    letter-spacing: .1em;\n    text-transform: uppercase;\n    color: #140A0A;\n    margin-bottom: 10px;\n  }\n  .gp-use-grid {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 8px;\n  }\n  .gp-use-pill {\n    background: #fff;\n    border: 1.5px solid #e0dcdc;\n    border-radius: 30px;\n    padding: 10px 14px;\n    font-size: 13px;\n    font-weight: 600;\n    color: #333;\n    display: flex;\n    align-items: center;\n    gap: 8px;\n  }\n  .gp-use-dot {\n    width: 7px;\n    height: 7px;\n    border-radius: 50%;\n    background: #EF3340;\n    flex-shrink: 0;\n  }\n<\/style>\n\n<!-- Stat pills -->\n<div class=\"gp-stat-row\">\n  <div class=\"gp-stat-box\">\n    <div class=\"gp-stat-main\">\n      <span class=\"gp-stat-num\">30<\/span><span class=\"gp-stat-unit\">wipes<\/span>\n    <\/div>\n    <div class=\"gp-stat-label\">Per pack<\/div>\n  <\/div>\n  <div class=\"gp-stat-box\">\n    <div class=\"gp-stat-main\">\n      <span class=\"gp-stat-num\">0<\/span><span class=\"gp-stat-unit\">%<\/span>\n    <\/div>\n    <div class=\"gp-stat-label\">Alcohol<\/div>\n  <\/div>\n  <div class=\"gp-stat-box\">\n    <div class=\"gp-stat-main\">\n      <span class=\"gp-stat-num\">5<\/span><span class=\"gp-stat-unit\">in1<\/span>\n    <\/div>\n    <div class=\"gp-stat-label\">Steps<\/div>\n  <\/div>\n<\/div>\n\n<!-- Feature cards -->\n<div class=\"gp-feat-grid\">\n  <div class=\"gp-feat-card\">\n    <div class=\"gp-feat-icon\">\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"\/>\n      <\/svg>\n    <\/div>\n    <div>\n      <div class=\"gp-feat-title\">Skin Barrier Support<\/div>\n      <div class=\"gp-feat-body\">Reinforces after friction, heat, and sweat<\/div>\n    <\/div>\n  <\/div>\n  <div class=\"gp-feat-card\">\n    <div class=\"gp-feat-icon\">\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z\"\/><path d=\"M12 6v6l4 2\"\/>\n      <\/svg>\n    <\/div>\n    <div>\n      <div class=\"gp-feat-title\">Instant Refresh<\/div>\n      <div class=\"gp-feat-body\">Clean skin in seconds — no rinse needed<\/div>\n    <\/div>\n  <\/div>\n  <div class=\"gp-feat-card\">\n    <div class=\"gp-feat-icon\">\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <path d=\"M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z\"\/>\n      <\/svg>\n    <\/div>\n    <div>\n      <div class=\"gp-feat-title\">Clean Formula<\/div>\n      <div class=\"gp-feat-body\">No alcohol, parabens, dyes, or sulfates<\/div>\n    <\/div>\n  <\/div>\n  <div class=\"gp-feat-card\">\n    <div class=\"gp-feat-icon\">\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <path d=\"M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"\/><polyline points=\"9 22 9 12 15 12 15 22\"\/>\n      <\/svg>\n    <\/div>\n    <div>\n      <div class=\"gp-feat-title\">Biodegradable<\/div>\n      <div class=\"gp-feat-body\">100% Rayon — built to break down<\/div>\n    <\/div>\n  <\/div>\n<\/div>\n\n<!-- Use cases -->\n<div class=\"gp-use-label\">Perfect for<\/div>\n<div class=\"gp-use-grid\">\n  <div class=\"gp-use-pill\"><span class=\"gp-use-dot\"><\/span>Post-workout<\/div>\n  <div class=\"gp-use-pill\"><span class=\"gp-use-dot\"><\/span>Game day<\/div>\n  <div class=\"gp-use-pill\"><span class=\"gp-use-dot\"><\/span>Travel days<\/div>\n  <div class=\"gp-use-pill\"><span class=\"gp-use-dot\"><\/span>Locker room<\/div>\n  <div class=\"gp-use-pill\"><span class=\"gp-use-dot\"><\/span>Between practices<\/div>\n  <div class=\"gp-use-pill\"><span class=\"gp-use-dot\"><\/span>On the go<\/div>\n<\/div>","spacing_top":0,"spacing_bottom":20,"color_scheme":"color__bg-transparent","color_border":"color__border-divider-1","style_border":"","position":"right"}},"2b5d0315-b88c-44b6-b63c-d68fbe584a4c":{"type":"text","disabled":true,"settings":{"content":"<p>High-performance hydrators and calming actives built to protect and repair skin under heat, sweat, and friction.<br\/><br\/>✓ Reduces post-training irritation<br\/>✓ Strengthens skin barrier<br\/>✓ Controls oil without over-drying<br\/>✓ Built for active lifestyles<\/p><p><\/p>","spacing_top":0,"spacing_bottom":30,"color_scheme":"color__bg-transparent","color_border":"color__border-divider-1","style_border":"","position":"right","layout_x_alignment":"left"}},"62c29cd6-a0b5-4f8b-86c0-a48660869d22":{"type":"price","settings":{"spacing_top":0,"spacing_bottom":10,"color_scheme":"color__bg-transparent","color_border":"color__border-divider-1","style_border":"","font":"type__nav","position":"right"}},"b78b560b-e1c2-428d-ad73-fb5f8aac6d58":{"type":"options","settings":{"spacing_top":20,"spacing_bottom":0,"color_scheme":"color__bg-transparent","color_border":"color__border-divider-1","style_border":"","position":"right"}},"paywhirl_subscriptions_paywhirl_plan_selector_TCjzTJ":{"type":"shopify:\/\/apps\/paywhirl-subscriptions\/blocks\/paywhirl-plan-selector\/41e95d60-82cf-46e8-84de-618d7e4c37b7","settings":{"theme":"classic","font_scale":100,"show_prices":"default","show_per_delivery_prices":"default","show_save_badge":"default","selling_plans_first":true,"one_time_purchase_description":"<p>Buy this product as a one-time purchase.<\/p>","selling_plans_description":"<p>Subscribe to this product and receive it on a regular basis.<\/p>","theme_color":"#334fb4","sleek_theme_color_preset":"default","sleek_color_background":"","sleek_color_primary_button":"","sleek_color_primary_button_label":"","sleek_color_primary_button_icon":"","sleek_color_secondary_button":"","sleek_color_secondary_button_label":"","sleek_color_secondary_button_icon":"","sleek_color_text":"","color_badge":"","color_badge_label":"","one_time_purchase_icon":"default","subscription_icon":"default","product":"{{product}}"}},"b78b560b-e1c2-428d-ad73-fb5f8aac6d53":{"type":"add","settings":{"content":"","spacing_top":20,"spacing_bottom":20,"color_scheme":"color__bg-transparent","color_border":"color__border-divider-1","color_button":"btn","style_border":"","position":"right","enable_quantity":false,"enable_dynamic_checkout":false,"enable_gift_card_recipient":false}},"123fd04c-91f3-4248-a65a-614e2f64fdeb":{"type":"description","settings":{"spacing_top":10,"spacing_bottom":10,"color_scheme":"btn--plain","color_border":"color__border-divider-1","style_border":"","position":"right","layout_x_alignment":"left","enable_accordion":true,"enable_open":true}},"accordion_gJ6baw":{"type":"accordion","settings":{"title":"Ingredients","content":"<p>Water, Butylene Glycol, Glycerin, Sodium Hyaluronate, 1,2-Hexanediol, Glycereth-26, Polyglyceryl-10 Laurate, Sorbeth-30 Tetraoleate, Chamomilla Recutita Flower Extract, Eucalyptus Globulus Leaf Oil, Olea Europaea Fruit Oil, Camellia Sinensis Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Caprylic\/Capric Triglyceride, Sodium benzoate, Disodium EDTA, Phenoxyethanol, Ethylhexylglycerin, Citric acid.<\/p>","icon":"","spacing_top":10,"spacing_bottom":10,"color_scheme":"btn--plain","color_border":"color__border-divider-1","style_border":"","position":"right","enable_open":false}},"accordion_ERmP7y":{"type":"accordion","settings":{"title":"Shipping Information","content":"<p>We offer free shipping on all orders over $50.<\/p><p>For orders under $50, standard ground shipping is a flat rate of $4.99 to anywhere in the U.S.<\/p><p>Standard ground delivery times typically range from 3–7 business days.<\/p>","icon":"","spacing_top":10,"spacing_bottom":10,"color_scheme":"btn--plain","color_border":"color__border-divider-1","style_border":"","position":"right","enable_open":false}},"moast_carousel_eeK4GX":{"type":"shopify:\/\/apps\/moast\/blocks\/carousel\/1ac7547b-5443-446c-868c-7fab4566ee16","settings":{"dynamic":false,"feed":"default","feed_usage":"back_up","header":"","slide_type":"cards","product_cards":"none","autoplay_mode":"none","autoscroll_duration":0,"slide_size":"100","border":0,"border_color":"linear-gradient(to right, #833ab4, #fd1d1d, #fcb045)","slide_rounding":"20","slide_spacing":16,"padding_top":40,"pagination":"below","alignment":"center","click_action":"fullscreen","float_location":"bottom_right","float_size":"medium","show_captions":false,"custom_css":""}}},"block_order":["liquid_L9kTGq","853ae7f0-85c9-45dc-8326-6e4044bcf5e5","klaviyo_reviews_average_rating_Ww9hgC","liquid_GjLPeC","2b5d0315-b88c-44b6-b63c-d68fbe584a4c","62c29cd6-a0b5-4f8b-86c0-a48660869d22","b78b560b-e1c2-428d-ad73-fb5f8aac6d58","paywhirl_subscriptions_paywhirl_plan_selector_TCjzTJ","b78b560b-e1c2-428d-ad73-fb5f8aac6d53","123fd04c-91f3-4248-a65a-614e2f64fdeb","accordion_gJ6baw","accordion_ERmP7y","moast_carousel_eeK4GX"],"settings":{"enable_default_variant":true,"enable_default_plans":false,"enable_default_selling_plan_widget":false,"media_gallery_style":"grid","media_gallery_position":"left","media_slider_size_desktop":100,"media_slider_size_mobile":100,"media_grid_size":1,"indicator_type":"standard","enable_arrows":false,"enable_alt":false,"enable_variant_images":false,"enable_header_overlap":false,"enable_zoom":true,"zoom_level":"scale-[1.5]","media_color_scheme":"color__bg-body color__text","media_border":"outline--width color__outline-divider-1","media_ratio":"aspect-[1\/1]","media_object_sizing":"cover","enable_ratio":true,"spacing_top":20,"spacing_bottom":0,"color_scheme":"color__bg-body","color_background":"#ffffff","enable_color_fade":false,"layout_column_width":50,"enable_media_margin":true,"enable_main_margin":true}},"liquid_Eg9DLr":{"type":"liquid","name":"t:sections.liquid.name","settings":{"liquid":"{% comment %}\n  GamePlan Skincare — Full PDP Content Block\n  Add via: Customize > Add section > Custom Liquid\n  Place below the main product section on the product template.\n{% endcomment %}\n\n<style>\n:root{--gc:#EF3340;--gg:#00A341;--gbg:#FFF5F5;--gbr:#F0E0E0;--gsoft:#FFF0F0}\n\n.gp-s,.gp-s *{font-family:var(--font-body-family,inherit)}\n.gp-h2,.gp-vp-li-t,.gp-fq-q,.gp-ig-nm,.gp-rv-nm{font-family:var(--font-heading-family,inherit)}\n\n.gp-s{padding:64px 24px;width:100vw;position:relative;left:50%;right:50%;margin-left:-50vw;margin-right:-50vw;box-sizing:border-box;}\n.gp-s-cream{background:var(--gbg)}\n.gp-s-white{background:#fff;border-top:1px solid var(--gbr)}\n.gp-fc{width:100vw;position:relative;left:50%;right:50%;margin-left:-50vw;margin-right:-50vw;box-sizing:border-box;}\n.gp-inner{max-width:1100px;margin:0 auto}\n.gp-inner-sm{max-width:960px;margin:0 auto}\n.gp-inner-xs{max-width:740px;margin:0 auto}\n.gp-ey{font-size:12px;text-transform:uppercase;letter-spacing:2.5px;color:var(--gc);font-weight:700;margin-bottom:12px;text-align:center}\n.gp-h2{font-size:clamp(28px,4vw,44px);font-weight:800;text-align:center;line-height:1.1;margin:0 0 10px;letter-spacing:-0.02em;color:#000}\n.gp-sub{font-size:17px;text-align:center;color:#666;margin-bottom:40px;line-height:1.65}\n\n\/* MARQUEE *\/\n.gp-mq{padding:20px 0;overflow:hidden;border-top:1px solid var(--gbr);border-bottom:1px solid var(--gbr);background:var(--gbg)}\n.gp-mq-t{display:flex;width:max-content;animation:gpScr 28s linear infinite}\n.gp-mq-t:hover{animation-play-state:paused}\n@keyframes gpScr{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}\n.gp-mq-i{display:inline-flex;align-items:center;gap:10px;padding:0 32px;white-space:nowrap;font-size:16px;font-weight:700;color:#000;letter-spacing:-0.01em}\n.gp-mq-ic{width:36px;height:36px;background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 2px 8px rgba(0,0,0,.05)}\n.gp-mq-ic svg{width:18px;height:18px}\n.gp-mq-sp{color:var(--gc);font-size:8px;padding:0 4px}\n\n\/* COMPARISON *\/\n.gp-cmp-wrap{background:#fff;border-radius:16px;padding:36px 28px;border:1px solid var(--gbr);overflow-x:auto;-webkit-overflow-scrolling:touch}\n.gp-ct{width:100%;border-collapse:separate;border-spacing:0;font-size:15px}\n.gp-ct thead th{padding:14px;text-align:center;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;border-bottom:2px solid var(--gbr);color:#999}\n.gp-ct thead th:first-child{text-align:left}\n.gp-ct thead th.hl{color:var(--gc);background:rgba(239,51,64,.03)}\n.gp-ct tbody td{padding:12px 14px;text-align:center;border-bottom:1px solid var(--gbr);color:#666;font-size:14px}\n.gp-ct tbody td:first-child{text-align:left;color:#000;font-weight:600}\n.gp-ct tbody td.hlc{color:#000;font-weight:700;background:rgba(239,51,64,.04)}\n.gp-ct tbody tr:last-child td{border-bottom:none}\n.gp-ck{color:var(--gg);font-weight:700;font-size:16px}\n.gp-cx{color:#ccc;font-size:16px}\n.gp-cf{text-align:center;margin-top:24px;font-size:15px;color:#666;font-style:italic}\n.gp-cf strong{color:var(--gc);font-style:normal}\n\n\/* VALUE PROPS *\/\n.gp-vp-split{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}\n.gp-vp-img{border-radius:20px;overflow:hidden}\n.gp-vp-img img{width:100%;display:block;border-radius:20px}\n.gp-vp-content .gp-ey{text-align:left}\n.gp-vp-content .gp-h2{text-align:left;font-size:clamp(22px,3vw,34px)}\n.gp-vp-content .gp-sub{text-align:left;margin-bottom:24px;font-size:15px}\n.gp-vp-list{display:flex;flex-direction:column;gap:16px}\n.gp-vp-li{display:flex;align-items:flex-start;gap:12px}\n.gp-vp-li-ic{width:36px;height:36px;min-width:36px;background:var(--gsoft);border-radius:10px;display:flex;align-items:center;justify-content:center}\n.gp-vp-li-ic svg{width:18px;height:18px}\n.gp-vp-li-t{font-size:16px;font-weight:700;color:#000;margin-bottom:2px}\n.gp-vp-li-d{font-size:14px;color:#666;line-height:1.6}\n\n\/* STATS *\/\n.gp-st-r{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:48px;padding-top:40px;border-top:1px solid var(--gbr)}\n.gp-st{text-align:center}\n.gp-st-n{font-size:clamp(26px,3.5vw,40px);font-weight:800;color:var(--gc);line-height:1;letter-spacing:-0.02em;font-family:var(--font-heading-family,inherit)}\n.gp-st-l{font-size:11px;color:#999;text-transform:uppercase;letter-spacing:1px;font-weight:600;margin-top:4px}\n\n\/* INGREDIENTS *\/\n.gp-ig{display:flex;flex-direction:column;gap:10px}\n.gp-ig-c{display:flex;align-items:center;gap:16px;padding:18px 22px;background:#fff;border-radius:12px;border:1px solid var(--gbr);transition:border-color .2s}\n.gp-ig-c:hover{border-color:var(--gc)}\n.gp-ig-n{width:30px;height:30px;min-width:30px;background:var(--gc);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800}\n.gp-ig-info{flex:1}\n.gp-ig-nm{font-size:16px;font-weight:700;color:#000;margin-bottom:2px}\n.gp-ig-why{font-size:14px;color:#666}\n.gp-ig-tag{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--gc);font-weight:700;background:rgba(239,51,64,.08);padding:4px 10px;border-radius:100px;white-space:nowrap}\n.gp-ig-bot{text-align:center;margin-top:32px}\n.gp-ig-badge{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;background:var(--gc);border-radius:100px;font-size:13px;font-weight:700;color:#fff}\n.gp-ig-note{font-size:13px;color:#999;margin-top:12px;font-style:italic}\n\n\/* REVIEWS *\/\n.gp-rv-g{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;max-width:900px;margin:0 auto}\n.gp-rv-c{background:#fff;border-radius:14px;padding:26px 22px;border:1px solid var(--gbr);display:flex;flex-direction:column}\n.gp-rv-stars{display:flex;gap:2px;margin-bottom:12px}\n.gp-rv-stars svg{width:14px;height:14px}\n.gp-rv-txt{font-size:15px;color:#444;line-height:1.65;margin-bottom:16px;font-style:italic;flex:1}\n.gp-rv-auth{display:flex;align-items:center;gap:10px;padding-top:14px;border-top:1px solid var(--gbr)}\n.gp-rv-av{width:34px;height:34px;background:var(--gc);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;font-weight:700;flex-shrink:0}\n.gp-rv-nm{font-size:14px;font-weight:700;color:#000}\n.gp-rv-badge{font-size:12px;color:#999}\n.gp-rv-stbig{display:flex;justify-content:center;gap:4px;margin-bottom:8px}\n.gp-rv-stbig svg{width:20px;height:20px}\n\n\/* FAQ *\/\n.gp-fq{display:flex;flex-direction:column}\n.gp-fq-i{border-bottom:1px solid var(--gbr)}\n.gp-fq-i:first-child{border-top:1px solid var(--gbr)}\n.gp-fq-tog{display:none}\n.gp-fq-q{display:flex;align-items:center;justify-content:space-between;padding:20px 0;cursor:pointer;font-size:16px;font-weight:600;color:#000;line-height:1.4;transition:color .2s;user-select:none;-webkit-user-select:none}\n.gp-fq-q:hover{color:var(--gc)}\n.gp-fq-chv{width:20px;height:20px;min-width:20px;transition:transform .3s;margin-left:16px}\n.gp-fq-a{max-height:0;overflow:hidden;transition:max-height .35s ease}\n.gp-fq-a-in{padding:0 0 20px;font-size:15px;color:#555;line-height:1.75}\n.gp-fq-tog:checked~.gp-fq-q .gp-fq-chv{transform:rotate(180deg)}\n.gp-fq-tog:checked~.gp-fq-q{color:var(--gc)}\n.gp-fq-tog:checked~.gp-fq-a{max-height:300px}\n\n\/* FINAL CTA *\/\n.gp-fc{background:var(--gc);padding:80px 40px;text-align:center}\n.gp-fc-perks{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-bottom:40px}\n.gp-fc-pk{display:inline-flex;align-items:center;gap:8px;font-size:14px;color:#fff;font-weight:600;background:rgba(255,255,255,.15);padding:10px 18px;border-radius:100px}\n.gp-fc-pk svg{width:16px;height:16px;flex-shrink:0}\n.gp-fc-btn{display:inline-flex;align-items:center;gap:10px;padding:18px 48px;background:#fff;color:var(--gc);font-size:18px;font-weight:800;border:none;border-radius:12px;cursor:pointer;text-decoration:none;transition:transform .15s,box-shadow .2s;text-transform:uppercase;letter-spacing:.5px}\n.gp-fc-btn:hover{transform:translateY(-2px);box-shadow:0 12px 32px rgba(0,0,0,.2)}\n.gp-fc-pn{margin-top:20px;font-size:15px;color:rgba(255,255,255,.8)}\n.gp-fc-pn strong{color:#fff}\n.gp-fc-gt{margin-top:24px;display:flex;align-items:center;justify-content:center;gap:8px;font-size:14px;color:rgba(255,255,255,.7)}\n\n@media(max-width:749px){\n.gp-s{padding:48px 16px}\n.gp-vp-split{grid-template-columns:1fr;gap:28px}\n.gp-st-r{grid-template-columns:repeat(2,1fr);gap:12px}\n.gp-ct{min-width:500px}\n.gp-rv-g{grid-template-columns:1fr}\n.gp-cmp-wrap{padding:16px 10px}\n.gp-fc{padding:60px 20px}\n.gp-fc-btn{width:100%;justify-content:center;font-size:16px;padding:16px 24px}\n.gp-ig-tag{display:none}\n}\n<\/style>\n\n<svg style=\"display:none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<symbol id=\"gp-star\" viewBox=\"0 0 24 24\"><polygon fill=\"#EF3340\" points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"\/><\/symbol>\n<symbol id=\"gp-chk\" viewBox=\"0 0 24 24\"><polyline fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" points=\"20 6 9 17 4 12\"\/><\/symbol>\n<symbol id=\"gp-chv\" viewBox=\"0 0 24 24\"><polyline fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" points=\"6 9 12 15 18 9\"\/><\/symbol>\n<\/svg>\n\n<!-- MARQUEE -->\n<div class=\"gp-mq\">\n  <div class=\"gp-mq-t\" id=\"gp-mq-track\"><\/div>\n<\/div>\n\n<!-- COMPARISON -->\n<div class=\"gp-s gp-s-cream\">\n  <div class=\"gp-inner-sm\">\n    <div class=\"gp-ey\">Built Different<\/div>\n    <h2 class=\"gp-h2\">Not Your Typical Skincare Wipe<\/h2>\n    <p class=\"gp-sub\">Most wipes strip or mask. GamePlan wipes cleanse, restore, and protect — built specifically for active skin.<\/p>\n    <div class=\"gp-cmp-wrap\">\n      <table class=\"gp-ct\">\n        <thead>\n          <tr>\n            <th><\/th>\n            <th class=\"hl\">GamePlan<\/th>\n            <th>Regular Wipes<\/th>\n            <th>Baby Wipes<\/th>\n            <th>Gym Towels<\/th>\n          <\/tr>\n        <\/thead>\n        <tbody>\n          <tr><td>Made for sweat<\/td><td class=\"hlc\"><span class=\"gp-ck\">&#10003;<\/span> Engineered for it<\/td><td><span class=\"gp-cx\">&#10007;<\/span><\/td><td><span class=\"gp-cx\">&#10007;<\/span><\/td><td><span class=\"gp-cx\">&#10007;<\/span><\/td><\/tr>\n          <tr><td>Skin barrier support<\/td><td class=\"hlc\"><span class=\"gp-ck\">&#10003;<\/span> Strengthens<\/td><td><span class=\"gp-cx\">&#10007;<\/span> Often strips<\/td><td><span class=\"gp-cx\">&#10007;<\/span><\/td><td><span class=\"gp-cx\">&#10007;<\/span><\/td><\/tr>\n          <tr><td>Alcohol-free<\/td><td class=\"hlc\"><span class=\"gp-ck\">&#10003;<\/span><\/td><td><span class=\"gp-cx\">&#10007;<\/span> Common irritant<\/td><td><span class=\"gp-ck\">&#10003;<\/span><\/td><td>&mdash;<\/td><\/tr>\n          <tr><td>Removes eyeblack<\/td><td class=\"hlc\"><span class=\"gp-ck\">&#10003;<\/span><\/td><td><span class=\"gp-cx\">&#10007;<\/span><\/td><td><span class=\"gp-cx\">&#10007;<\/span><\/td><td>Partial<\/td><\/tr>\n          <tr><td>Finish<\/td><td class=\"hlc\">Clean, hydrated<\/td><td>Sticky or drying<\/td><td>Greasy residue<\/td><td>Dry, no hydration<\/td><\/tr>\n          <tr><td>Gym bag ready<\/td><td class=\"hlc\"><span class=\"gp-ck\">&#10003;<\/span> Built for it<\/td><td>Fragile packaging<\/td><td>Too large<\/td><td>Gets dirty fast<\/td><\/tr>\n          <tr><td>Biodegradable<\/td><td class=\"hlc\"><span class=\"gp-ck\">&#10003;<\/span> 100% Rayon<\/td><td><span class=\"gp-cx\">&#10007;<\/span> Most are plastic<\/td><td>Varies<\/td><td><span class=\"gp-ck\">&#10003;<\/span><\/td><\/tr>\n        <\/tbody>\n      <\/table>\n    <\/div>\n    <p class=\"gp-cf\">The only wipe that was <strong>built for athletes<\/strong> — not adapted for them.<\/p>\n  <\/div>\n<\/div>\n\n<!-- VALUE PROPS -->\n<div class=\"gp-s gp-s-white\">\n  <div class=\"gp-inner\">\n    <div class=\"gp-vp-split\">\n      <div class=\"gp-vp-img\">\n        <img src=\"https:\/\/www.gameplanskincare.com\/cdn\/shop\/files\/gp_products_-2.jpg?v=1721318072&width=900\" alt=\"GamePlan Post-Sweat Sport Wipes\" loading=\"lazy\">\n      <\/div>\n      <div class=\"gp-vp-content\">\n        <div class=\"gp-ey\">Born on the Field. Refined in the Lab.<\/div>\n        <h2 class=\"gp-h2\">Your Skin Trains Hard Too<\/h2>\n        <p class=\"gp-sub\">Heat, sweat, friction, helmets, masks, sun — active skin is constantly under stress. Most products weren't built for it. GamePlan was.<\/p>\n        <div class=\"gp-vp-list\">\n          <div class=\"gp-vp-li\">\n            <div class=\"gp-vp-li-ic\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#EF3340\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"\/><polyline points=\"9 12 11 14 15 10\"\/><\/svg><\/div>\n            <div><div class=\"gp-vp-li-t\">Barrier Reinforcement<\/div><div class=\"gp-vp-li-d\">Calms irritation and rebuilds your skin barrier after sweat, friction, and heat.<\/div><\/div>\n          <\/div>\n          <div class=\"gp-vp-li\">\n            <div class=\"gp-vp-li-ic\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#EF3340\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z\"\/><\/svg><\/div>\n            <div><div class=\"gp-vp-li-t\">Instant Hydration<\/div><div class=\"gp-vp-li-d\">Restores moisture in seconds — no rinse, no residue, no grease.<\/div><\/div>\n          <\/div>\n          <div class=\"gp-vp-li\">\n            <div class=\"gp-vp-li-ic\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#EF3340\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"\/><path d=\"M8 12l2 2 4-4\"\/><\/svg><\/div>\n            <div><div class=\"gp-vp-li-t\">Clean Formula<\/div><div class=\"gp-vp-li-d\">No alcohol, no parabens, no dyes — formulated by Korean skincare experts.<\/div><\/div>\n          <\/div>\n          <div class=\"gp-vp-li\">\n            <div class=\"gp-vp-li-ic\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#EF3340\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14M12 5l7 7-7 7\"\/><\/svg><\/div>\n            <div><div class=\"gp-vp-li-t\">Game-Ready Fast<\/div><div class=\"gp-vp-li-d\">Removes eyeblack, sweat, oil, and dirt — from face to helmet line in one wipe.<\/div><\/div>\n          <\/div>\n        <\/div>\n      <\/div>\n    <\/div>\n    <div class=\"gp-st-r\">\n      <div class=\"gp-st\"><div class=\"gp-st-n\">30<\/div><div class=\"gp-st-l\">Wipes per pack<\/div><\/div>\n      <div class=\"gp-st\"><div class=\"gp-st-n\">0%<\/div><div class=\"gp-st-l\">Alcohol<\/div><\/div>\n      <div class=\"gp-st\"><div class=\"gp-st-n\">100%<\/div><div class=\"gp-st-l\">Biodegradable<\/div><\/div>\n      <div class=\"gp-st\"><div class=\"gp-st-n\">5★<\/div><div class=\"gp-st-l\">Athlete rated<\/div><\/div>\n    <\/div>\n  <\/div>\n<\/div>\n\n<!-- INGREDIENTS -->\n<div class=\"gp-s gp-s-cream\">\n  <div style=\"max-width:800px;margin:0 auto\">\n    <div class=\"gp-ey\">Full Transparency<\/div>\n    <h2 class=\"gp-h2\">What's Inside<\/h2>\n    <p class=\"gp-sub\">No filler ingredients. Everything in this wipe is there for a reason.<\/p>\n    <div class=\"gp-ig\">\n      <div class=\"gp-ig-c\"><span class=\"gp-ig-n\">1<\/span><div class=\"gp-ig-info\"><div class=\"gp-ig-nm\">100% Rayon Wipe Material<\/div><div class=\"gp-ig-why\">Biodegradable, non-abrasive — large enough to cover face, neck, and head<\/div><\/div><span class=\"gp-ig-tag\">Base<\/span><\/div>\n      <div class=\"gp-ig-c\"><span class=\"gp-ig-n\">2<\/span><div class=\"gp-ig-info\"><div class=\"gp-ig-nm\">Eucalyptus Extract<\/div><div class=\"gp-ig-why\">Anti-microbial, naturally invigorating — our signature scent that refreshes without stinging<\/div><\/div><span class=\"gp-ig-tag\">Active<\/span><\/div>\n      <div class=\"gp-ig-c\"><span class=\"gp-ig-n\">3<\/span><div class=\"gp-ig-info\"><div class=\"gp-ig-nm\">Antioxidant Botanical Blend<\/div><div class=\"gp-ig-why\">Fights free radical damage caused by UV exposure, sweat, and oxidative stress post-training<\/div><\/div><span class=\"gp-ig-tag\">Recovery<\/span><\/div>\n      <div class=\"gp-ig-c\"><span class=\"gp-ig-n\">4<\/span><div class=\"gp-ig-info\"><div class=\"gp-ig-nm\">Hydrating Humectants<\/div><div class=\"gp-ig-why\">Draws moisture back into the skin after sweat and water loss during training<\/div><\/div><span class=\"gp-ig-tag\">Hydration<\/span><\/div>\n      <div class=\"gp-ig-c\"><span class=\"gp-ig-n\">5<\/span><div class=\"gp-ig-info\"><div class=\"gp-ig-nm\">Skin Barrier Complex<\/div><div class=\"gp-ig-why\">Reinforces the skin's protective layer after friction from helmets, pads, and masks<\/div><\/div><span class=\"gp-ig-tag\">Barrier<\/span><\/div>\n    <\/div>\n    <div class=\"gp-ig-bot\">\n      <div class=\"gp-ig-badge\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"\/><polyline points=\"22 4 12 14.01 9 11.01\"\/><\/svg> Paraben-free &middot; Paraffin-free &middot; Dye-free &middot; Cruelty-free &middot; Alcohol-free<\/div>\n      <p class=\"gp-ig-note\">Formulated with Korean skincare expertise. Made for athletes, tested on real sweat.<\/p>\n    <\/div>\n  <\/div>\n<\/div>\n\n<!-- REVIEWS -->\n<div class=\"gp-s gp-s-white\">\n  <div class=\"gp-inner\">\n    <div style=\"text-align:center;margin-bottom:40px\">\n      <div class=\"gp-ey\">Real Athletes. Real Results.<\/div>\n      <h2 class=\"gp-h2\">What They're Saying<\/h2>\n      <div class=\"gp-rv-stbig\" id=\"gp-stars-big\"><\/div>\n      <p style=\"font-size:13px;color:#888;margin-top:6px\">Rated 5.0 from verified buyers<\/p>\n    <\/div>\n    <div class=\"gp-rv-g\" id=\"gp-reviews-grid\"><\/div>\n  <\/div>\n<\/div>\n\n<!-- FAQ -->\n<div class=\"gp-s gp-s-cream\">\n  <div class=\"gp-inner-xs\">\n    <div style=\"text-align:center;margin-bottom:36px\">\n      <div class=\"gp-ey\">Got Questions?<\/div>\n      <h2 class=\"gp-h2\">Your Questions, Answered<\/h2>\n    <\/div>\n    <div class=\"gp-fq\" id=\"gp-faq-list\"><\/div>\n  <\/div>\n<\/div>\n\n<!-- FINAL CTA -->\n<div class=\"gp-fc\">\n  <h2 style=\"font-size:clamp(28px,5vw,48px);font-weight:800;line-height:1.05;letter-spacing:-0.02em;color:#fff;margin:0 0 14px\">Train Hard. Recover Smarter.<\/h2>\n  <p style=\"font-size:18px;color:rgba(255,255,255,.9);line-height:1.6;margin-bottom:36px\">30 wipes &middot; Alcohol-free &middot; Biodegradable &middot; Gym bag ready<\/p>\n  <div class=\"gp-fc-perks\">\n    <span class=\"gp-fc-pk\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"\/><\/svg> Save 15% with Subscribe<\/span>\n    <span class=\"gp-fc-pk\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"\/><\/svg> Free shipping on 3+ packs<\/span>\n    <span class=\"gp-fc-pk\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"\/><\/svg> Cancel anytime<\/span>\n  <\/div>\n  <button class=\"gp-fc-btn\" id=\"gp-fc-atc-btn\">\n    <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"9\" cy=\"21\" r=\"1\"\/><circle cx=\"20\" cy=\"21\" r=\"1\"\/><path d=\"M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6\"\/><\/svg>\n    Add to Cart\n  <\/button>\n  <p class=\"gp-fc-pn\">Starting at <strong>$11.40\/pack<\/strong> with a 3-pack<\/p>\n  <div class=\"gp-fc-gt\">\n    <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"rgba(255,255,255,.6)\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"\/><polyline points=\"9 12 11 14 15 10\"\/><\/svg>\n    Love it or we'll make it right — satisfaction guaranteed\n  <\/div>\n<\/div>\n\n<script>\n(function(){\nvar ss='<svg width=\"WW\" height=\"WW\" viewBox=\"0 0 24 24\"><use href=\"#gp-star\"\/><\/svg>';\nfunction stars(n,w){var o='';for(var i=0;i<n;i++)o+=ss.replace(\/WW\/g,w);return o;}\n\n\/* Marquee *\/\nvar items=[\n  ['M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z','Engineered for Athletes'],\n  ['M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z','Alcohol-Free Formula'],\n  ['M22 11.08V12a10 10 0 1 1-5.93-9.14M22 4l-10 10.01-3-3','Removes Eyeblack'],\n  ['M9 12l2 2 4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0z','Paraben &amp; Dye Free'],\n  ['M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z','100% Biodegradable'],\n  ['M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z','Cruelty-Free'],\n  ['M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z','Eucalyptus Scent'],\n  ['M5 12h14M12 5l7 7-7 7','Instant Refresh']\n];\nvar mh='';\nfor(var r=0;r<2;r++){\n  for(var i=0;i<items.length;i++){\n    mh+='<span class=\"gp-mq-i\"><span class=\"gp-mq-ic\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#EF3340\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"'+items[i][0]+'\"\/><\/svg><\/span>'+items[i][1]+'<\/span><span class=\"gp-mq-sp\">&bull;<\/span>';\n  }\n}\ndocument.getElementById('gp-mq-track').innerHTML=mh;\n\n\/* Stars hero *\/\ndocument.getElementById('gp-stars-big').innerHTML=stars(5,20);\n\n\/* Reviews *\/\nvar revs=[\n  ['I use these after every workout, my skin stays calm. Nothing else I have tried actually works post-sweat without leaving my face feeling tight or greasy.','Maya R.','M'],\n  ['Best quick wipe for eyeblack removal and locker room clean up. Using them now for baseball and they were great this fall for football.','Levi A.','L'],\n  ['Bought for my kids to use on bus after practices and games. No longer sitting in their sweat on way home. Great product and smells nice.','Adrian M.','A'],\n  ['Our son is a soccer goalie and daughter does XC. They each keep a pack in their PE bags and I keep them in my car. We don\\'t leave practice until they use one.','Ashley G.','AG'],\n  ['I\\'ll never use paper towels again to take off my eyeblack. These get everything off fast and my skin feels way better after a long game day.','Jordan W.','J'],\n  ['Finally something that doesn\\'t burn when I\\'m sweaty. Clean, hydrated, not greasy at all — exactly what I needed for after practice.','Emily S.','E']\n];\nvar rh='';\nfor(var i=0;i<revs.length;i++){\n  rh+='<div class=\"gp-rv-c\"><div class=\"gp-rv-stars\">'+stars(5,14)+'<\/div><p class=\"gp-rv-txt\">&ldquo;'+revs[i][0]+'&rdquo;<\/p><div class=\"gp-rv-auth\"><div class=\"gp-rv-av\">'+revs[i][2]+'<\/div><div><div class=\"gp-rv-nm\">'+revs[i][1]+'<\/div><div class=\"gp-rv-badge\">Verified Buyer<\/div><\/div><\/div><\/div>';\n}\ndocument.getElementById('gp-reviews-grid').innerHTML=rh;\n\n\/* FAQ *\/\nvar faqs=[\n  ['What makes these different from regular wipes?','Most wipes strip or mask. GamePlan wipes cleanse sweat, salt, and oil while reinforcing your skin barrier — so irritation and breakouts don\\'t build momentum. This is performance hygiene, not a baby wipe.'],\n  ['Will this dry my skin out?','No. The formula is alcohol-free and contains humectants that restore hydration. You\\'ll feel clean and refreshed — not tight or dry.'],\n  ['Can I use it to remove eyeblack?','Yes — this is one of the most popular use cases. The wipes are large enough and strong enough to remove eyeblack fast without micro-abrasions or irritation.'],\n  ['Is this just for teens or high school athletes?','Not at all. It\\'s formulated for anyone with an active lifestyle — from high school athletes to NFL players to weekend warriors and fitness enthusiasts. If you sweat, it works for you.'],\n  ['Can I use this on my body too?','Yes. The formula is safe for face, neck, head, and body. Many athletes use it for a full wipe-down between practices or on travel days.'],\n  ['Does it contain alcohol?','No. We deliberately left alcohol out. It\\'s a common ingredient in wipes but it strips your skin barrier — the opposite of what you want post-workout.'],\n  ['How often can I use it?','Daily. The formula is gentle enough for everyday use. Most athletes use one wipe per session, keeping a pack in their bag and one in the car.'],\n  ['Is it biodegradable?','Yes. The wipe material is 100% Rayon — fully biodegradable. No plastic fibers, no microplastics.']\n];\nvar chv='<svg class=\"gp-fq-chv\" viewBox=\"0 0 24 24\"><use href=\"#gp-chv\"\/><\/svg>';\nvar fh='';\nfor(var i=0;i<faqs.length;i++){\n  var id='gp-fq-'+(i+1);\n  fh+='<div class=\"gp-fq-i\"><input type=\"checkbox\" class=\"gp-fq-tog\" id=\"'+id+'\"><label class=\"gp-fq-q\" for=\"'+id+'\">'+faqs[i][0]+chv+'<\/label><div class=\"gp-fq-a\"><div class=\"gp-fq-a-in\">'+faqs[i][1]+'<\/div><\/div><\/div>';\n}\ndocument.getElementById('gp-faq-list').innerHTML=fh;\n\n\/* Final CTA ATC *\/\nfunction gpAddToCart(vid,btn){\n  var orig=btn.innerHTML;\n  btn.innerHTML='Adding...';\n  btn.style.pointerEvents='none';\n  fetch('\/cart\/add.js',{method:'POST',headers:{'Content-Type':'application\/json'},body:JSON.stringify({items:[{id:parseInt(vid),quantity:1}]})})\n  .then(function(r){return r.json();})\n  .then(function(){\n    btn.innerHTML='&#10003; Added!';\n    setTimeout(function(){btn.innerHTML=orig;btn.style.pointerEvents='';},1800);\n    var cd=document.querySelector('cart-drawer');\n    if(cd&&typeof cd.open==='function')cd.open();\n    document.dispatchEvent(new CustomEvent('cart:refresh'));\n    document.dispatchEvent(new CustomEvent('cart:updated'));\n  })\n  .catch(function(){btn.innerHTML=orig;btn.style.pointerEvents='';});\n}\n\nvar fcBtn=document.getElementById('gp-fc-atc-btn');\nif(fcBtn){\n  fcBtn.addEventListener('click',function(e){\n    e.preventDefault();\n    var sel=document.querySelector('form[action=\"\/cart\/add\"] [name=\"id\"],form[action*=\"cart\"] [name=\"id\"]');\n    if(sel){gpAddToCart(sel.value,fcBtn);}\n    else{\n      var pdpBtn=document.querySelector('.product-form__submit,form[action=\"\/cart\/add\"] button[type=\"submit\"]');\n      if(pdpBtn)pdpBtn.click();\n      else window.scrollTo({top:0,behavior:'smooth'});\n    }\n  });\n}\n})();\n<\/script>","spacing_top":100,"spacing_bottom":100,"color_scheme":"color__bg-body","color_background":"#ffffff","color_text":"","color_border":"color__border-divider-1","enable_color_fade":false,"style_border":"","enable_margin":true,"visibility":""}},"tabs_pPJfTK":{"type":"tabs","blocks":{"content_KR9AFb":{"type":"content","settings":{"tab":"For Athletes","content":"<h6>REFRESH & RECOVER<\/h6><p>A facial cleansing solution for your on-the-go lifestyle. Our formula is engineered for sport, and formulated by Korean skincare experts. Our wipes avoid the micro-abrasions and chemical ingredients of our competitors and instead offer gentle, clean ingredients that will leave your skin fresh and replenished. We created a wipe that is non-stripping, non-irritating, and strong enough to tackle sweat and dirt no matter when or where.<\/p><p>Our wipes have plenty of real estate to swipe sweat, made of 100% Rayon biodegradable material.<\/p><p>Lightly scented with our signature eucalyptus scent to leave skin invigorated.<\/p>"}},"content_Lfk9RG":{"type":"content","settings":{"tab":"Ingredients","content":"<h6>Ingredients<\/h6><p>Water, Butylene Glycol, Glycerin, Sodium Hyaluronate, 1,2-Hexanediol, Glycereth-26, Polyglyceryl-10 Laurate, Sorbeth-30 Tetraoleate, Chamomilla Recutita Flower Extract, Eucalyptus Globulus Leaf Oil, Olea Europaea Fruit Oil, Camellia Sinensis Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Caprylic\/Capric Triglyceride, Sodium benzoate, Disodium EDTA, Phenoxyethanol, Ethylhexylglycerin, Citric acid.<\/p>"}},"content_F7r9bE":{"type":"content","settings":{"tab":"Usage & Details","content":"<h6>Directions:<\/h6><p>Use in sweeping and circular motions all over face and neck. No need to rinse. Avoid direct contact in eyes.<\/p><h6>Details:<\/h6><p>Best used after workouts, activity, or any time you need a quick refresh throughout the day.<\/p>"}}},"block_order":["content_KR9AFb","content_Lfk9RG","content_F7r9bE"],"disabled":true,"settings":{"tabs":"For Athletes, Ingredients, Usage & Details","heading":"Post-Sweat Cleansing Wipes","content":"","button_label":"","button_url":"","spacing_top":50,"spacing_bottom":100,"color_scheme":"color__bg-body","color_background":"#fff4eb","color_text":"color__dark","color_border":"color__border-divider-1","color_button":"btn btn--secondary","enable_color_fade":false,"style_border":"","layout_x_alignment":"justify-between","enable_margin":true,"enable_max_width":false,"enable_split":false,"enable_split_heading":true,"visibility":""}},"content_grid_iHEyff":{"type":"content-grid","blocks":{"content_4XpVhj":{"type":"content","settings":{"heading":"Engineered to Restore","content":"<p>Calms irritation, removes sweat buildup, and reinforces your skin barrier — all in one step.<\/p>","button_label":"","url":"shopify:\/\/collections\/all","image":"shopify:\/\/shop_images\/nikki_2.jpg","show_image_as_background":false,"enable_autoplay":true,"enable_mute_toggle":true,"enable_loop":true,"spacing_minimum_height":250,"enable_padding":true,"color_scheme":"color__bg-primary color__primary","color_border":"outline--width color__outline-divider-1","color_text":"color__text","color_button":"btn--small btn--outline","enable_gradient":false,"text_position":"above","layout_y_alignment":"justify-center","layout_x_alignment":"center","layout_row_span":"row-span-1","layout_col_span":"col-span-1 md:col-span-1"}},"content_NwqJNJ":{"type":"content","settings":{"heading":"Post-Sweat Protocol","content":"<p>Removes sweat, oil, and grime while restoring hydration — before irritation sets in.<\/p>","button_label":"","url":"","image":"shopify:\/\/shop_images\/GP_BLOG_Jacob_1.jpg","show_image_as_background":false,"enable_autoplay":true,"enable_mute_toggle":true,"enable_loop":true,"spacing_minimum_height":250,"enable_padding":true,"color_scheme":"color__bg-primary color__primary","color_border":"outline--width color__outline-divider-1","color_text":"color__text","color_button":"btn--small btn--outline","enable_gradient":false,"text_position":"below","layout_y_alignment":"justify-center","layout_x_alignment":"center","layout_row_span":"row-span-1","layout_col_span":"col-span-1 md:col-span-1"}}},"block_order":["content_4XpVhj","content_NwqJNJ"],"disabled":true,"name":"t:sections.content_grid.name","settings":{"heading":"","content":"","button_label":"","button_url":"","spacing_top":0,"spacing_bottom":100,"color_scheme":"color__bg-body","color_background":"#ffffff","color_text":"","color_border":"color__border-divider-1","color_button":"btn btn--secondary","enable_color_fade":false,"style_border":"border--b-width","layout_row_desktop":4,"layout_row_mobile":1,"layout_x_alignment":"justify-between","enable_margin":true,"enable_split":false,"enable_split_heading":false,"visibility":"md:hidden"}},"content_grid_3hACbz":{"type":"content-grid","blocks":{"content_3Cfc69":{"type":"content","settings":{"heading":"","content":"","button_label":"","url":"","image":"shopify:\/\/shop_images\/nikki_2.jpg","show_image_as_background":false,"enable_autoplay":true,"enable_mute_toggle":true,"enable_loop":true,"spacing_minimum_height":250,"enable_padding":false,"color_scheme":"color__bg-body color__text","color_border":"outline--width color__outline-divider-1","color_text":"color__text","color_button":"btn--small","enable_gradient":false,"text_position":"below","layout_y_alignment":"justify-end","layout_x_alignment":"left","layout_row_span":"row-span-2","layout_col_span":"col-span-1 md:col-span-2"}},"content_m6RnQ6":{"type":"content","settings":{"heading":"Engineered to Restore","content":"<p>Calms irritation, removes sweat buildup, and reinforces your skin barrier — all in one step.<\/p>","button_label":"","url":"","show_image_as_background":false,"enable_autoplay":true,"enable_mute_toggle":true,"enable_loop":true,"spacing_minimum_height":350,"enable_padding":true,"color_scheme":"color__bg-primary color__primary","color_border":"outline--width color__outline-selected-1","color_text":"color__text","color_button":"btn--small btn--outline-alt","enable_gradient":false,"text_position":"below","layout_y_alignment":"justify-center","layout_x_alignment":"left","layout_row_span":"row-span-2","layout_col_span":"col-span-1 md:col-span-1"}},"content_QwKMAh":{"type":"content","settings":{"heading":"Post-Sweat Protocol","content":"<p>Removes sweat, oil, and grime while restoring hydration — before irritation sets in.<\/p>","button_label":"","url":"","show_image_as_background":false,"enable_autoplay":true,"enable_mute_toggle":true,"enable_loop":true,"spacing_minimum_height":360,"enable_padding":true,"color_scheme":"color__bg-primary color__primary","color_border":"outline--width color__outline-selected-1","color_text":"color__text","color_button":"btn--small btn--outline-alt","enable_gradient":false,"text_position":"below","layout_y_alignment":"justify-center","layout_x_alignment":"left","layout_row_span":"row-span-1","layout_col_span":"col-span-1 md:col-span-1"}},"content_fWhffE":{"type":"content","settings":{"heading":"","content":"","button_label":"","url":"","image":"shopify:\/\/shop_images\/GP_BLOG_Jacob_1.jpg","show_image_as_background":true,"enable_autoplay":true,"enable_mute_toggle":true,"enable_loop":true,"spacing_minimum_height":250,"enable_padding":false,"color_scheme":"color__bg-body color__text","color_border":"outline--width color__outline-divider-1","color_text":"color__text","color_button":"btn--small btn--secondary","enable_gradient":false,"text_position":"below","layout_y_alignment":"justify-end","layout_x_alignment":"left","layout_row_span":"row-span-1","layout_col_span":"col-span-1 md:col-span-2"}}},"block_order":["content_3Cfc69","content_m6RnQ6","content_QwKMAh","content_fWhffE"],"disabled":true,"settings":{"heading":"","content":"","button_label":"","button_url":"","spacing_top":100,"spacing_bottom":100,"color_scheme":"color__bg-body","color_background":"#ffffff","color_text":"","color_border":"color__border-divider-1","color_button":"btn","enable_color_fade":false,"style_border":"","layout_row_desktop":3,"layout_row_mobile":1,"layout_x_alignment":"justify-between","enable_margin":true,"enable_split":false,"enable_split_heading":false,"visibility":"hidden md:block"}},"icon_grid_i3hgda":{"type":"icon-grid","blocks":{"icon_yA8KDn":{"type":"icon","settings":{"icon":"shopify:\/\/shop_images\/GamePlan_favicon_circlewhite_180px.png","icon_height":"h-8","heading":"","content":"<p>Derm Tested<\/p>","enable_padding":true,"color_scheme":"color__bg-transparent","color_border":"outline--width color__outline-selected-1","alignment":"flex-col","x_alignment":"text-center justify-center","layout_row_span":"row-span-1","layout_col_span":"col-span-1 md:col-span-1"}},"icon_yww7Ff":{"type":"icon","settings":{"icon_height":"h-8","heading":"","content":"<p>100% Organic<\/p>","enable_padding":true,"color_scheme":"color__bg-transparent","color_border":"outline--width color__outline-selected-1","alignment":"flex-col","x_alignment":"text-center justify-center","layout_row_span":"row-span-1","layout_col_span":"col-span-1 md:col-span-1"}},"icon_p7FxUq":{"type":"icon","settings":{"icon_height":"h-8","heading":"","content":"<p>Made in Canada<\/p>","enable_padding":true,"color_scheme":"color__bg-transparent","color_border":"outline--width color__outline-selected-1","alignment":"flex-col","x_alignment":"text-center justify-center","layout_row_span":"row-span-1","layout_col_span":"col-span-1 md:col-span-1"}},"icon_yyaKRn":{"type":"icon","settings":{"icon_height":"h-8","heading":"","content":"<p>5000+ 5 Star reviews<\/p>","enable_padding":true,"color_scheme":"color__bg-transparent","color_border":"outline--width color__outline-selected-1","alignment":"flex-col","x_alignment":"text-center justify-center","layout_row_span":"row-span-1","layout_col_span":"col-span-1 md:col-span-1"}},"icon_eUdhxz":{"type":"icon","settings":{"icon_height":"h-8","heading":"","content":"<p>Award winning<\/p>","enable_padding":true,"color_scheme":"color__bg-transparent","color_border":"outline--width color__outline-selected-1","alignment":"flex-col","x_alignment":"text-center justify-center","layout_row_span":"row-span-1","layout_col_span":"col-span-1 md:col-span-1"}},"icon_LCBphW":{"type":"icon","settings":{"icon_height":"h-8","heading":"","content":"<p>Chef approved<\/p>","enable_padding":true,"color_scheme":"color__bg-transparent","color_border":"outline--width color__outline-selected-1","alignment":"flex-col","x_alignment":"text-center justify-center","layout_row_span":"row-span-1","layout_col_span":"col-span-1 md:col-span-1"}}},"block_order":["icon_yA8KDn","icon_yww7Ff","icon_p7FxUq","icon_yyaKRn","icon_eUdhxz","icon_LCBphW"],"disabled":true,"settings":{"heading":"","content":"","button_label":"","button_url":"","spacing_top":10,"spacing_bottom":100,"color_scheme":"custom","color_background":"#fff4eb","color_text":"","color_border":"color__border-divider-1","color_button":"btn btn--secondary","enable_color_fade":true,"style_border":"","layout_row_desktop":6,"layout_row_mobile":2,"layout_x_alignment":"justify-between","enable_margin":true,"enable_split":false,"enable_split_heading":false,"visibility":""}},"165592515341576314":{"type":"accordions","blocks":{"165592515344a810fb-0":{"type":"content","settings":{"heading":"What makes these different from regular wipes?","content":"<p>Most wipes strip or mask.<br\/><br\/>GamePlan wipes cleanse sweat, salt, and oil while reinforcing your skin barrier — so irritation and breakouts don’t build momentum.<\/p><p>This is performance hygiene, not a baby wipe.<\/p>","icon":"","color_scheme":"btn","enable_open":true}},"content_GrH4dd":{"type":"content","settings":{"heading":"Will this dry my skin out?","content":"<p>No. Our formula hydrates while it cleanses.<\/p><p>We remove excess oil and buildup without triggering rebound dryness.<\/p>","icon":"","color_scheme":"btn","enable_open":false}},"content_xQRVyJ":{"type":"content","disabled":true,"settings":{"heading":"Is it safe for acne-prone skin?","content":"<p>Yes. It’s non-comedogenic and designed to prevent sweat-driven breakouts by keeping pores clear after activity.<\/p>","icon":"","color_scheme":"btn","enable_open":false}},"content_edHrmi":{"type":"content","settings":{"heading":"Is this just for teens?","content":"<p>No. It’s built for anyone who trains hard and sweats — youth athletes, college, pros, weekend warriors.<\/p><p>If you sweat, it’s for you.<\/p>","icon":"","color_scheme":"btn","enable_open":false}},"content_MMdqcQ":{"type":"content","settings":{"heading":"Can I use this on my body too?","content":"<p>Yes. Safe for face, neck, chest, and back — anywhere sweat and friction cause irritation.<\/p>","icon":"","color_scheme":"btn","enable_open":false}},"content_MV4RBA":{"type":"content","settings":{"heading":"Does it contain alcohol?","content":"<p>No harsh alcohols.<br\/><br\/>No parabens.<br\/><br\/>No unnecessary fragrance.<\/p><p>Dermatology tested and hypoallergenic.<\/p>","icon":"","color_scheme":"btn","enable_open":false}},"content_DHTzWy":{"type":"content","settings":{"heading":"How often can I use it?","content":"<p>Daily. Even multiple times per day if needed.<\/p><p>The formula is designed for repeat sweat cycles.<\/p>","icon":"","color_scheme":"btn","enable_open":false}}},"block_order":["165592515344a810fb-0","content_GrH4dd","content_xQRVyJ","content_edHrmi","content_MMdqcQ","content_MV4RBA","content_DHTzWy"],"disabled":true,"settings":{"heading":"FAQs","content":"","button_label":"","button_url":"","spacing_top":50,"spacing_bottom":50,"color_scheme":"color__bg-overlay-1","color_background":"#fff4eb","color_text":"","color_border":"color__border-divider-1","color_button":"btn","enable_color_fade":true,"heading_font":"type__body type--base","style_border":"","layout_x_alignment":"justify-between","enable_margin":true,"enable_split":true,"enable_split_heading":false,"visibility":""}},"177196743364d08534":{"type":"apps","blocks":{"klaviyo_reviews_product_reviews_raKipJ":{"type":"shopify:\/\/apps\/klaviyo-reviews\/blocks\/product-reviews\/db20e365-d984-4ac4-9655-e1588d951ca9","settings":{}}},"block_order":["klaviyo_reviews_product_reviews_raKipJ"],"settings":{"spacing_top":100,"spacing_bottom":100,"color_scheme":"color__bg-body","color_background":"#ffffff","color_text":"","color_border":"color__border-divider-1","enable_color_fade":false,"style_border":"border--b-width","enable_margin":true}}},"order":["1638995507af787164","liquid_Eg9DLr","tabs_pPJfTK","content_grid_iHEyff","content_grid_3hACbz","icon_grid_i3hgda","165592515341576314","177196743364d08534"]}
+{
+  "sections": {
+    "1638995507af787164": {
+      "type": "product__main",
+      "blocks": {
+        "liquid_L9kTGq": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% render 'gp-top-badge' %}",
+            "spacing_top": 10,
+            "spacing_bottom": 0,
+            "color_scheme": "color__bg-transparent",
+            "color_border": "color__border-divider-1",
+            "style_border": "",
+            "position": "right"
+          }
+        },
+        "853ae7f0-85c9-45dc-8326-6e4044bcf5e5": {
+          "type": "title",
+          "settings": {
+            "content": "<p>High-performance hydrators and calming actives built to protect and repair skin under heat, sweat, and friction.</p>",
+            "spacing_top": 10,
+            "spacing_bottom": 0,
+            "color_scheme": "color__bg-transparent",
+            "color_border": "color__border-divider-1",
+            "style_border": "",
+            "position": "right",
+            "savings_badge": "none",
+            "enable_badges": true,
+            "enable_type": false,
+            "enable_vendor": false,
+            "enable_sku": false
+          }
+        },
+        "klaviyo_reviews_average_rating_Ww9hgC": {
+          "type": "shopify://apps/klaviyo-reviews/blocks/average-rating/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "liquid_GjLPeC": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% render 'gp-product-callouts' %}",
+            "spacing_top": 0,
+            "spacing_bottom": 20,
+            "color_scheme": "color__bg-transparent",
+            "color_border": "color__border-divider-1",
+            "style_border": "",
+            "position": "right"
+          }
+        },
+        "2b5d0315-b88c-44b6-b63c-d68fbe584a4c": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "content": "<p>High-performance hydrators and calming actives built to protect and repair skin under heat, sweat, and friction.<br/><br/>\u2713 Reduces post-training irritation<br/>\u2713 Strengthens skin barrier<br/>\u2713 Controls oil without over-drying<br/>\u2713 Built for active lifestyles</p><p></p>",
+            "spacing_top": 0,
+            "spacing_bottom": 30,
+            "color_scheme": "color__bg-transparent",
+            "color_border": "color__border-divider-1",
+            "style_border": "",
+            "position": "right",
+            "layout_x_alignment": "left"
+          }
+        },
+        "62c29cd6-a0b5-4f8b-86c0-a48660869d22": {
+          "type": "price",
+          "settings": {
+            "spacing_top": 0,
+            "spacing_bottom": 10,
+            "color_scheme": "color__bg-transparent",
+            "color_border": "color__border-divider-1",
+            "style_border": "",
+            "font": "type__nav",
+            "position": "right"
+          }
+        },
+        "b78b560b-e1c2-428d-ad73-fb5f8aac6d58": {
+          "type": "options",
+          "settings": {
+            "spacing_top": 20,
+            "spacing_bottom": 0,
+            "color_scheme": "color__bg-transparent",
+            "color_border": "color__border-divider-1",
+            "style_border": "",
+            "position": "right"
+          }
+        },
+        "paywhirl_subscriptions_paywhirl_plan_selector_TCjzTJ": {
+          "type": "shopify://apps/paywhirl-subscriptions/blocks/paywhirl-plan-selector/41e95d60-82cf-46e8-84de-618d7e4c37b7",
+          "settings": {
+            "theme": "classic",
+            "font_scale": 100,
+            "show_prices": "default",
+            "show_per_delivery_prices": "default",
+            "show_save_badge": "default",
+            "selling_plans_first": true,
+            "one_time_purchase_description": "<p>Buy this product as a one-time purchase.</p>",
+            "selling_plans_description": "<p>Subscribe to this product and receive it on a regular basis.</p>",
+            "theme_color": "#334fb4",
+            "sleek_theme_color_preset": "default",
+            "sleek_color_background": "",
+            "sleek_color_primary_button": "",
+            "sleek_color_primary_button_label": "",
+            "sleek_color_primary_button_icon": "",
+            "sleek_color_secondary_button": "",
+            "sleek_color_secondary_button_label": "",
+            "sleek_color_secondary_button_icon": "",
+            "sleek_color_text": "",
+            "color_badge": "",
+            "color_badge_label": "",
+            "one_time_purchase_icon": "default",
+            "subscription_icon": "default",
+            "product": "{{product}}"
+          }
+        },
+        "b78b560b-e1c2-428d-ad73-fb5f8aac6d53": {
+          "type": "add",
+          "settings": {
+            "content": "",
+            "spacing_top": 20,
+            "spacing_bottom": 20,
+            "color_scheme": "color__bg-transparent",
+            "color_border": "color__border-divider-1",
+            "color_button": "btn",
+            "style_border": "",
+            "position": "right",
+            "enable_quantity": false,
+            "enable_dynamic_checkout": false,
+            "enable_gift_card_recipient": false
+          }
+        },
+        "123fd04c-91f3-4248-a65a-614e2f64fdeb": {
+          "type": "description",
+          "settings": {
+            "spacing_top": 10,
+            "spacing_bottom": 10,
+            "color_scheme": "btn--plain",
+            "color_border": "color__border-divider-1",
+            "style_border": "",
+            "position": "right",
+            "layout_x_alignment": "left",
+            "enable_accordion": true,
+            "enable_open": true
+          }
+        },
+        "accordion_gJ6baw": {
+          "type": "accordion",
+          "settings": {
+            "title": "Ingredients",
+            "content": "<p>Water, Butylene Glycol, Glycerin, Sodium Hyaluronate, 1,2-Hexanediol, Glycereth-26, Polyglyceryl-10 Laurate, Sorbeth-30 Tetraoleate, Chamomilla Recutita Flower Extract, Eucalyptus Globulus Leaf Oil, Olea Europaea Fruit Oil, Camellia Sinensis Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Caprylic/Capric Triglyceride, Sodium benzoate, Disodium EDTA, Phenoxyethanol, Ethylhexylglycerin, Citric acid.</p>",
+            "icon": "",
+            "spacing_top": 10,
+            "spacing_bottom": 10,
+            "color_scheme": "btn--plain",
+            "color_border": "color__border-divider-1",
+            "style_border": "",
+            "position": "right",
+            "enable_open": false
+          }
+        },
+        "accordion_ERmP7y": {
+          "type": "accordion",
+          "settings": {
+            "title": "Shipping Information",
+            "content": "<p>We offer free shipping on all orders over $50.</p><p>For orders under $50, standard ground shipping is a flat rate of $4.99 to anywhere in the U.S.</p><p>Standard ground delivery times typically range from 3\u20137 business days.</p>",
+            "icon": "",
+            "spacing_top": 10,
+            "spacing_bottom": 10,
+            "color_scheme": "btn--plain",
+            "color_border": "color__border-divider-1",
+            "style_border": "",
+            "position": "right",
+            "enable_open": false
+          }
+        },
+        "moast_carousel_eeK4GX": {
+          "type": "shopify://apps/moast/blocks/carousel/1ac7547b-5443-446c-868c-7fab4566ee16",
+          "settings": {
+            "dynamic": false,
+            "feed": "default",
+            "feed_usage": "back_up",
+            "header": "",
+            "slide_type": "cards",
+            "product_cards": "none",
+            "autoplay_mode": "none",
+            "autoscroll_duration": 0,
+            "slide_size": "100",
+            "border": 0,
+            "border_color": "linear-gradient(to right, #833ab4, #fd1d1d, #fcb045)",
+            "slide_rounding": "20",
+            "slide_spacing": 16,
+            "padding_top": 40,
+            "pagination": "below",
+            "alignment": "center",
+            "click_action": "fullscreen",
+            "float_location": "bottom_right",
+            "float_size": "medium",
+            "show_captions": false,
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "liquid_L9kTGq",
+        "853ae7f0-85c9-45dc-8326-6e4044bcf5e5",
+        "klaviyo_reviews_average_rating_Ww9hgC",
+        "liquid_GjLPeC",
+        "2b5d0315-b88c-44b6-b63c-d68fbe584a4c",
+        "62c29cd6-a0b5-4f8b-86c0-a48660869d22",
+        "b78b560b-e1c2-428d-ad73-fb5f8aac6d58",
+        "paywhirl_subscriptions_paywhirl_plan_selector_TCjzTJ",
+        "b78b560b-e1c2-428d-ad73-fb5f8aac6d53",
+        "123fd04c-91f3-4248-a65a-614e2f64fdeb",
+        "accordion_gJ6baw",
+        "accordion_ERmP7y",
+        "moast_carousel_eeK4GX"
+      ],
+      "settings": {
+        "enable_default_variant": true,
+        "enable_default_plans": false,
+        "enable_default_selling_plan_widget": false,
+        "media_gallery_style": "grid",
+        "media_gallery_position": "left",
+        "media_slider_size_desktop": 100,
+        "media_slider_size_mobile": 100,
+        "media_grid_size": 1,
+        "indicator_type": "standard",
+        "enable_arrows": false,
+        "enable_alt": false,
+        "enable_variant_images": false,
+        "enable_header_overlap": false,
+        "enable_zoom": true,
+        "zoom_level": "scale-[1.5]",
+        "media_color_scheme": "color__bg-body color__text",
+        "media_border": "outline--width color__outline-divider-1",
+        "media_ratio": "aspect-[1/1]",
+        "media_object_sizing": "cover",
+        "enable_ratio": true,
+        "spacing_top": 20,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body",
+        "color_background": "#ffffff",
+        "enable_color_fade": false,
+        "layout_column_width": 50,
+        "enable_media_margin": true,
+        "enable_main_margin": true
+      }
+    },
+    "liquid_Eg9DLr": {
+      "type": "gp-pdp-content",
+      "settings": {}
+    },
+    "tabs_pPJfTK": {
+      "type": "tabs",
+      "blocks": {
+        "content_KR9AFb": {
+          "type": "content",
+          "settings": {
+            "tab": "For Athletes",
+            "content": "<h6>REFRESH & RECOVER</h6><p>A facial cleansing solution for your on-the-go lifestyle. Our formula is engineered for sport, and formulated by Korean skincare experts. Our wipes avoid the micro-abrasions and chemical ingredients of our competitors and instead offer gentle, clean ingredients that will leave your skin fresh and replenished. We created a wipe that is non-stripping, non-irritating, and strong enough to tackle sweat and dirt no matter when or where.</p><p>Our wipes have plenty of real estate to swipe sweat, made of 100% Rayon biodegradable material.</p><p>Lightly scented with our signature eucalyptus scent to leave skin invigorated.</p>"
+          }
+        },
+        "content_Lfk9RG": {
+          "type": "content",
+          "settings": {
+            "tab": "Ingredients",
+            "content": "<h6>Ingredients</h6><p>Water, Butylene Glycol, Glycerin, Sodium Hyaluronate, 1,2-Hexanediol, Glycereth-26, Polyglyceryl-10 Laurate, Sorbeth-30 Tetraoleate, Chamomilla Recutita Flower Extract, Eucalyptus Globulus Leaf Oil, Olea Europaea Fruit Oil, Camellia Sinensis Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Caprylic/Capric Triglyceride, Sodium benzoate, Disodium EDTA, Phenoxyethanol, Ethylhexylglycerin, Citric acid.</p>"
+          }
+        },
+        "content_F7r9bE": {
+          "type": "content",
+          "settings": {
+            "tab": "Usage & Details",
+            "content": "<h6>Directions:</h6><p>Use in sweeping and circular motions all over face and neck. No need to rinse. Avoid direct contact in eyes.</p><h6>Details:</h6><p>Best used after workouts, activity, or any time you need a quick refresh throughout the day.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "content_KR9AFb",
+        "content_Lfk9RG",
+        "content_F7r9bE"
+      ],
+      "disabled": true,
+      "settings": {
+        "tabs": "For Athletes, Ingredients, Usage & Details",
+        "heading": "Post-Sweat Cleansing Wipes",
+        "content": "",
+        "button_label": "",
+        "button_url": "",
+        "spacing_top": 50,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body",
+        "color_background": "#fff4eb",
+        "color_text": "color__dark",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "enable_color_fade": false,
+        "style_border": "",
+        "layout_x_alignment": "justify-between",
+        "enable_margin": true,
+        "enable_max_width": false,
+        "enable_split": false,
+        "enable_split_heading": true,
+        "visibility": ""
+      }
+    },
+    "content_grid_iHEyff": {
+      "type": "content-grid",
+      "blocks": {
+        "content_4XpVhj": {
+          "type": "content",
+          "settings": {
+            "heading": "Engineered to Restore",
+            "content": "<p>Calms irritation, removes sweat buildup, and reinforces your skin barrier \u2014 all in one step.</p>",
+            "button_label": "",
+            "url": "shopify://collections/all",
+            "image": "shopify://shop_images/nikki_2.jpg",
+            "show_image_as_background": false,
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_minimum_height": 250,
+            "enable_padding": true,
+            "color_scheme": "color__bg-primary color__primary",
+            "color_border": "outline--width color__outline-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn--small btn--outline",
+            "enable_gradient": false,
+            "text_position": "above",
+            "layout_y_alignment": "justify-center",
+            "layout_x_alignment": "center",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "content_NwqJNJ": {
+          "type": "content",
+          "settings": {
+            "heading": "Post-Sweat Protocol",
+            "content": "<p>Removes sweat, oil, and grime while restoring hydration \u2014 before irritation sets in.</p>",
+            "button_label": "",
+            "url": "",
+            "image": "shopify://shop_images/GP_BLOG_Jacob_1.jpg",
+            "show_image_as_background": false,
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_minimum_height": 250,
+            "enable_padding": true,
+            "color_scheme": "color__bg-primary color__primary",
+            "color_border": "outline--width color__outline-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn--small btn--outline",
+            "enable_gradient": false,
+            "text_position": "below",
+            "layout_y_alignment": "justify-center",
+            "layout_x_alignment": "center",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        }
+      },
+      "block_order": [
+        "content_4XpVhj",
+        "content_NwqJNJ"
+      ],
+      "disabled": true,
+      "name": "t:sections.content_grid.name",
+      "settings": {
+        "heading": "",
+        "content": "",
+        "button_label": "",
+        "button_url": "",
+        "spacing_top": 0,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body",
+        "color_background": "#ffffff",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "enable_color_fade": false,
+        "style_border": "border--b-width",
+        "layout_row_desktop": 4,
+        "layout_row_mobile": 1,
+        "layout_x_alignment": "justify-between",
+        "enable_margin": true,
+        "enable_split": false,
+        "enable_split_heading": false,
+        "visibility": "md:hidden"
+      }
+    },
+    "content_grid_3hACbz": {
+      "type": "content-grid",
+      "blocks": {
+        "content_3Cfc69": {
+          "type": "content",
+          "settings": {
+            "heading": "",
+            "content": "",
+            "button_label": "",
+            "url": "",
+            "image": "shopify://shop_images/nikki_2.jpg",
+            "show_image_as_background": false,
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_minimum_height": 250,
+            "enable_padding": false,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "outline--width color__outline-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn--small",
+            "enable_gradient": false,
+            "text_position": "below",
+            "layout_y_alignment": "justify-end",
+            "layout_x_alignment": "left",
+            "layout_row_span": "row-span-2",
+            "layout_col_span": "col-span-1 md:col-span-2"
+          }
+        },
+        "content_m6RnQ6": {
+          "type": "content",
+          "settings": {
+            "heading": "Engineered to Restore",
+            "content": "<p>Calms irritation, removes sweat buildup, and reinforces your skin barrier \u2014 all in one step.</p>",
+            "button_label": "",
+            "url": "",
+            "show_image_as_background": false,
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_minimum_height": 350,
+            "enable_padding": true,
+            "color_scheme": "color__bg-primary color__primary",
+            "color_border": "outline--width color__outline-selected-1",
+            "color_text": "color__text",
+            "color_button": "btn--small btn--outline-alt",
+            "enable_gradient": false,
+            "text_position": "below",
+            "layout_y_alignment": "justify-center",
+            "layout_x_alignment": "left",
+            "layout_row_span": "row-span-2",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "content_QwKMAh": {
+          "type": "content",
+          "settings": {
+            "heading": "Post-Sweat Protocol",
+            "content": "<p>Removes sweat, oil, and grime while restoring hydration \u2014 before irritation sets in.</p>",
+            "button_label": "",
+            "url": "",
+            "show_image_as_background": false,
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_minimum_height": 360,
+            "enable_padding": true,
+            "color_scheme": "color__bg-primary color__primary",
+            "color_border": "outline--width color__outline-selected-1",
+            "color_text": "color__text",
+            "color_button": "btn--small btn--outline-alt",
+            "enable_gradient": false,
+            "text_position": "below",
+            "layout_y_alignment": "justify-center",
+            "layout_x_alignment": "left",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "content_fWhffE": {
+          "type": "content",
+          "settings": {
+            "heading": "",
+            "content": "",
+            "button_label": "",
+            "url": "",
+            "image": "shopify://shop_images/GP_BLOG_Jacob_1.jpg",
+            "show_image_as_background": true,
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_minimum_height": 250,
+            "enable_padding": false,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "outline--width color__outline-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn--small btn--secondary",
+            "enable_gradient": false,
+            "text_position": "below",
+            "layout_y_alignment": "justify-end",
+            "layout_x_alignment": "left",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-2"
+          }
+        }
+      },
+      "block_order": [
+        "content_3Cfc69",
+        "content_m6RnQ6",
+        "content_QwKMAh",
+        "content_fWhffE"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "content": "",
+        "button_label": "",
+        "button_url": "",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body",
+        "color_background": "#ffffff",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn",
+        "enable_color_fade": false,
+        "style_border": "",
+        "layout_row_desktop": 3,
+        "layout_row_mobile": 1,
+        "layout_x_alignment": "justify-between",
+        "enable_margin": true,
+        "enable_split": false,
+        "enable_split_heading": false,
+        "visibility": "hidden md:block"
+      }
+    },
+    "icon_grid_i3hgda": {
+      "type": "icon-grid",
+      "blocks": {
+        "icon_yA8KDn": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/GamePlan_favicon_circlewhite_180px.png",
+            "icon_height": "h-8",
+            "heading": "",
+            "content": "<p>Derm Tested</p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-transparent",
+            "color_border": "outline--width color__outline-selected-1",
+            "alignment": "flex-col",
+            "x_alignment": "text-center justify-center",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "icon_yww7Ff": {
+          "type": "icon",
+          "settings": {
+            "icon_height": "h-8",
+            "heading": "",
+            "content": "<p>100% Organic</p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-transparent",
+            "color_border": "outline--width color__outline-selected-1",
+            "alignment": "flex-col",
+            "x_alignment": "text-center justify-center",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "icon_p7FxUq": {
+          "type": "icon",
+          "settings": {
+            "icon_height": "h-8",
+            "heading": "",
+            "content": "<p>Made in Canada</p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-transparent",
+            "color_border": "outline--width color__outline-selected-1",
+            "alignment": "flex-col",
+            "x_alignment": "text-center justify-center",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "icon_yyaKRn": {
+          "type": "icon",
+          "settings": {
+            "icon_height": "h-8",
+            "heading": "",
+            "content": "<p>5000+ 5 Star reviews</p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-transparent",
+            "color_border": "outline--width color__outline-selected-1",
+            "alignment": "flex-col",
+            "x_alignment": "text-center justify-center",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "icon_eUdhxz": {
+          "type": "icon",
+          "settings": {
+            "icon_height": "h-8",
+            "heading": "",
+            "content": "<p>Award winning</p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-transparent",
+            "color_border": "outline--width color__outline-selected-1",
+            "alignment": "flex-col",
+            "x_alignment": "text-center justify-center",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "icon_LCBphW": {
+          "type": "icon",
+          "settings": {
+            "icon_height": "h-8",
+            "heading": "",
+            "content": "<p>Chef approved</p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-transparent",
+            "color_border": "outline--width color__outline-selected-1",
+            "alignment": "flex-col",
+            "x_alignment": "text-center justify-center",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        }
+      },
+      "block_order": [
+        "icon_yA8KDn",
+        "icon_yww7Ff",
+        "icon_p7FxUq",
+        "icon_yyaKRn",
+        "icon_eUdhxz",
+        "icon_LCBphW"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "content": "",
+        "button_label": "",
+        "button_url": "",
+        "spacing_top": 10,
+        "spacing_bottom": 100,
+        "color_scheme": "custom",
+        "color_background": "#fff4eb",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "enable_color_fade": true,
+        "style_border": "",
+        "layout_row_desktop": 6,
+        "layout_row_mobile": 2,
+        "layout_x_alignment": "justify-between",
+        "enable_margin": true,
+        "enable_split": false,
+        "enable_split_heading": false,
+        "visibility": ""
+      }
+    },
+    "165592515341576314": {
+      "type": "accordions",
+      "blocks": {
+        "165592515344a810fb-0": {
+          "type": "content",
+          "settings": {
+            "heading": "What makes these different from regular wipes?",
+            "content": "<p>Most wipes strip or mask.<br/><br/>GamePlan wipes cleanse sweat, salt, and oil while reinforcing your skin barrier \u2014 so irritation and breakouts don\u2019t build momentum.</p><p>This is performance hygiene, not a baby wipe.</p>",
+            "icon": "",
+            "color_scheme": "btn",
+            "enable_open": true
+          }
+        },
+        "content_GrH4dd": {
+          "type": "content",
+          "settings": {
+            "heading": "Will this dry my skin out?",
+            "content": "<p>No. Our formula hydrates while it cleanses.</p><p>We remove excess oil and buildup without triggering rebound dryness.</p>",
+            "icon": "",
+            "color_scheme": "btn",
+            "enable_open": false
+          }
+        },
+        "content_xQRVyJ": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "heading": "Is it safe for acne-prone skin?",
+            "content": "<p>Yes. It\u2019s non-comedogenic and designed to prevent sweat-driven breakouts by keeping pores clear after activity.</p>",
+            "icon": "",
+            "color_scheme": "btn",
+            "enable_open": false
+          }
+        },
+        "content_edHrmi": {
+          "type": "content",
+          "settings": {
+            "heading": "Is this just for teens?",
+            "content": "<p>No. It\u2019s built for anyone who trains hard and sweats \u2014 youth athletes, college, pros, weekend warriors.</p><p>If you sweat, it\u2019s for you.</p>",
+            "icon": "",
+            "color_scheme": "btn",
+            "enable_open": false
+          }
+        },
+        "content_MMdqcQ": {
+          "type": "content",
+          "settings": {
+            "heading": "Can I use this on my body too?",
+            "content": "<p>Yes. Safe for face, neck, chest, and back \u2014 anywhere sweat and friction cause irritation.</p>",
+            "icon": "",
+            "color_scheme": "btn",
+            "enable_open": false
+          }
+        },
+        "content_MV4RBA": {
+          "type": "content",
+          "settings": {
+            "heading": "Does it contain alcohol?",
+            "content": "<p>No harsh alcohols.<br/><br/>No parabens.<br/><br/>No unnecessary fragrance.</p><p>Dermatology tested and hypoallergenic.</p>",
+            "icon": "",
+            "color_scheme": "btn",
+            "enable_open": false
+          }
+        },
+        "content_DHTzWy": {
+          "type": "content",
+          "settings": {
+            "heading": "How often can I use it?",
+            "content": "<p>Daily. Even multiple times per day if needed.</p><p>The formula is designed for repeat sweat cycles.</p>",
+            "icon": "",
+            "color_scheme": "btn",
+            "enable_open": false
+          }
+        }
+      },
+      "block_order": [
+        "165592515344a810fb-0",
+        "content_GrH4dd",
+        "content_xQRVyJ",
+        "content_edHrmi",
+        "content_MMdqcQ",
+        "content_MV4RBA",
+        "content_DHTzWy"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "FAQs",
+        "content": "",
+        "button_label": "",
+        "button_url": "",
+        "spacing_top": 50,
+        "spacing_bottom": 50,
+        "color_scheme": "color__bg-overlay-1",
+        "color_background": "#fff4eb",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn",
+        "enable_color_fade": true,
+        "heading_font": "type__body type--base",
+        "style_border": "",
+        "layout_x_alignment": "justify-between",
+        "enable_margin": true,
+        "enable_split": true,
+        "enable_split_heading": false,
+        "visibility": ""
+      }
+    },
+    "177196743364d08534": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_reviews_product_reviews_raKipJ": {
+          "type": "shopify://apps/klaviyo-reviews/blocks/product-reviews/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "klaviyo_reviews_product_reviews_raKipJ"
+      ],
+      "settings": {
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body",
+        "color_background": "#ffffff",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "enable_color_fade": false,
+        "style_border": "border--b-width",
+        "enable_margin": true
+      }
+    }
+  },
+  "order": [
+    "1638995507af787164",
+    "liquid_Eg9DLr",
+    "tabs_pPJfTK",
+    "content_grid_iHEyff",
+    "content_grid_3hACbz",
+    "icon_grid_i3hgda",
+    "165592515341576314",
+    "177196743364d08534"
+  ]
+}

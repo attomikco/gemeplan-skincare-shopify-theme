@@ -1,0 +1,270 @@
+{% comment %}
+  GamePlan Skincare — Full PDP Content Section
+  Marquee, comparison table, value props, ingredients, reviews, FAQ, and final CTA.
+{% endcomment %}
+
+{{ 'gp-pdp-content.css' | asset_url | stylesheet_tag }}
+
+<svg style="display:none" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="gp-star" viewBox="0 0 24 24"><polygon fill="#EF3340" points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></symbol>
+  <symbol id="gp-chk" viewBox="0 0 24 24"><polyline fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" points="20 6 9 17 4 12"/></symbol>
+  <symbol id="gp-chv" viewBox="0 0 24 24"><polyline fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="6 9 12 15 18 9"/></symbol>
+</svg>
+
+<!-- MARQUEE -->
+<div class="gp-mq">
+  <div class="gp-mq-t" id="gp-mq-track"></div>
+</div>
+
+<!-- COMPARISON -->
+<div class="gp-s gp-s-cream">
+  <div class="gp-inner-sm">
+    <div class="gp-ey">Built Different</div>
+    <h2 class="gp-h2">Not Your Typical Skincare Wipe</h2>
+    <p class="gp-sub">Most wipes strip or mask. GamePlan wipes cleanse, restore, and protect — built specifically for active skin.</p>
+    <div class="gp-cmp-wrap">
+      <table class="gp-ct">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="hl">GamePlan</th>
+            <th>Regular Wipes</th>
+            <th>Baby Wipes</th>
+            <th>Gym Towels</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Made for sweat</td><td class="hlc"><span class="gp-ck">&#10003;</span> Engineered for it</td><td><span class="gp-cx">&#10007;</span></td><td><span class="gp-cx">&#10007;</span></td><td><span class="gp-cx">&#10007;</span></td></tr>
+          <tr><td>Skin barrier support</td><td class="hlc"><span class="gp-ck">&#10003;</span> Strengthens</td><td><span class="gp-cx">&#10007;</span> Often strips</td><td><span class="gp-cx">&#10007;</span></td><td><span class="gp-cx">&#10007;</span></td></tr>
+          <tr><td>Alcohol-free</td><td class="hlc"><span class="gp-ck">&#10003;</span></td><td><span class="gp-cx">&#10007;</span> Common irritant</td><td><span class="gp-ck">&#10003;</span></td><td>&mdash;</td></tr>
+          <tr><td>Removes eyeblack</td><td class="hlc"><span class="gp-ck">&#10003;</span></td><td><span class="gp-cx">&#10007;</span></td><td><span class="gp-cx">&#10007;</span></td><td>Partial</td></tr>
+          <tr><td>Finish</td><td class="hlc">Clean, hydrated</td><td>Sticky or drying</td><td>Greasy residue</td><td>Dry, no hydration</td></tr>
+          <tr><td>Gym bag ready</td><td class="hlc"><span class="gp-ck">&#10003;</span> Built for it</td><td>Fragile packaging</td><td>Too large</td><td>Gets dirty fast</td></tr>
+          <tr><td>Biodegradable</td><td class="hlc"><span class="gp-ck">&#10003;</span> 100% Rayon</td><td><span class="gp-cx">&#10007;</span> Most are plastic</td><td>Varies</td><td><span class="gp-ck">&#10003;</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="gp-cf">The only wipe that was <strong>built for athletes</strong> — not adapted for them.</p>
+  </div>
+</div>
+
+<!-- VALUE PROPS -->
+<div class="gp-s gp-s-white">
+  <div class="gp-inner">
+    <div class="gp-vp-split">
+      <div class="gp-vp-img">
+        <img src="https://www.gameplanskincare.com/cdn/shop/files/gp_products_-2.jpg?v=1721318072&width=900" alt="GamePlan Post-Sweat Sport Wipes" loading="lazy">
+      </div>
+      <div class="gp-vp-content">
+        <div class="gp-ey">Born on the Field. Refined in the Lab.</div>
+        <h2 class="gp-h2">Your Skin Trains Hard Too</h2>
+        <p class="gp-sub">Heat, sweat, friction, helmets, masks, sun — active skin is constantly under stress. Most products weren't built for it. GamePlan was.</p>
+        <div class="gp-vp-list">
+          <div class="gp-vp-li">
+            <div class="gp-vp-li-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#EF3340" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg></div>
+            <div><div class="gp-vp-li-t">Barrier Reinforcement</div><div class="gp-vp-li-d">Calms irritation and rebuilds your skin barrier after sweat, friction, and heat.</div></div>
+          </div>
+          <div class="gp-vp-li">
+            <div class="gp-vp-li-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#EF3340" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg></div>
+            <div><div class="gp-vp-li-t">Instant Hydration</div><div class="gp-vp-li-d">Restores moisture in seconds — no rinse, no residue, no grease.</div></div>
+          </div>
+          <div class="gp-vp-li">
+            <div class="gp-vp-li-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#EF3340" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12l2 2 4-4"/></svg></div>
+            <div><div class="gp-vp-li-t">Clean Formula</div><div class="gp-vp-li-d">No alcohol, no parabens, no dyes — formulated by Korean skincare experts.</div></div>
+          </div>
+          <div class="gp-vp-li">
+            <div class="gp-vp-li-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#EF3340" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+            <div><div class="gp-vp-li-t">Game-Ready Fast</div><div class="gp-vp-li-d">Removes eyeblack, sweat, oil, and dirt — from face to helmet line in one wipe.</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gp-st-r">
+      <div class="gp-st"><div class="gp-st-n">30</div><div class="gp-st-l">Wipes per pack</div></div>
+      <div class="gp-st"><div class="gp-st-n">0%</div><div class="gp-st-l">Alcohol</div></div>
+      <div class="gp-st"><div class="gp-st-n">100%</div><div class="gp-st-l">Biodegradable</div></div>
+      <div class="gp-st"><div class="gp-st-n">5★</div><div class="gp-st-l">Athlete rated</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- INGREDIENTS -->
+<div class="gp-s gp-s-cream">
+  <div style="max-width:800px;margin:0 auto">
+    <div class="gp-ey">Full Transparency</div>
+    <h2 class="gp-h2">What's Inside</h2>
+    <p class="gp-sub">No filler ingredients. Everything in this wipe is there for a reason.</p>
+    <div class="gp-ig">
+      <div class="gp-ig-c"><span class="gp-ig-n">1</span><div class="gp-ig-info"><div class="gp-ig-nm">100% Rayon Wipe Material</div><div class="gp-ig-why">Biodegradable, non-abrasive — large enough to cover face, neck, and head</div></div><span class="gp-ig-tag">Base</span></div>
+      <div class="gp-ig-c"><span class="gp-ig-n">2</span><div class="gp-ig-info"><div class="gp-ig-nm">Eucalyptus Extract</div><div class="gp-ig-why">Anti-microbial, naturally invigorating — our signature scent that refreshes without stinging</div></div><span class="gp-ig-tag">Active</span></div>
+      <div class="gp-ig-c"><span class="gp-ig-n">3</span><div class="gp-ig-info"><div class="gp-ig-nm">Antioxidant Botanical Blend</div><div class="gp-ig-why">Fights free radical damage caused by UV exposure, sweat, and oxidative stress post-training</div></div><span class="gp-ig-tag">Recovery</span></div>
+      <div class="gp-ig-c"><span class="gp-ig-n">4</span><div class="gp-ig-info"><div class="gp-ig-nm">Hydrating Humectants</div><div class="gp-ig-why">Draws moisture back into the skin after sweat and water loss during training</div></div><span class="gp-ig-tag">Hydration</span></div>
+      <div class="gp-ig-c"><span class="gp-ig-n">5</span><div class="gp-ig-info"><div class="gp-ig-nm">Skin Barrier Complex</div><div class="gp-ig-why">Reinforces the skin's protective layer after friction from helmets, pads, and masks</div></div><span class="gp-ig-tag">Barrier</span></div>
+    </div>
+    <div class="gp-ig-bot">
+      <div class="gp-ig-badge"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Paraben-free &middot; Paraffin-free &middot; Dye-free &middot; Cruelty-free &middot; Alcohol-free</div>
+      <p class="gp-ig-note">Formulated with Korean skincare expertise. Made for athletes, tested on real sweat.</p>
+    </div>
+  </div>
+</div>
+
+<!-- REVIEWS -->
+<div class="gp-s gp-s-white">
+  <div class="gp-inner">
+    <div style="text-align:center;margin-bottom:40px">
+      <div class="gp-ey">Real Athletes. Real Results.</div>
+      <h2 class="gp-h2">What They're Saying</h2>
+      <div class="gp-rv-stbig" id="gp-stars-big"></div>
+      <p style="font-size:13px;color:#888;margin-top:6px">Rated 5.0 from verified buyers</p>
+    </div>
+    <div class="gp-rv-g" id="gp-reviews-grid"></div>
+  </div>
+</div>
+
+<!-- FAQ -->
+<div class="gp-s gp-s-cream">
+  <div class="gp-inner-xs">
+    <div style="text-align:center;margin-bottom:36px">
+      <div class="gp-ey">Got Questions?</div>
+      <h2 class="gp-h2">Your Questions, Answered</h2>
+    </div>
+    <div class="gp-fq" id="gp-faq-list"></div>
+  </div>
+</div>
+
+<!-- FINAL CTA -->
+<div class="gp-fc">
+  <h2 style="font-size:clamp(28px,5vw,48px);font-weight:800;line-height:1.05;letter-spacing:-0.02em;color:#fff;margin:0 0 14px">Train Hard. Recover Smarter.</h2>
+  <p style="font-size:18px;color:rgba(255,255,255,.9);line-height:1.6;margin-bottom:36px">30 wipes &middot; Alcohol-free &middot; Biodegradable &middot; Gym bag ready</p>
+  <div class="gp-fc-perks">
+    <span class="gp-fc-pk"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Save 15% with Subscribe</span>
+    <span class="gp-fc-pk"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Free shipping on 3+ packs</span>
+    <span class="gp-fc-pk"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Cancel anytime</span>
+  </div>
+  <button class="gp-fc-btn" id="gp-fc-atc-btn">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+    Add to Cart
+  </button>
+  <p class="gp-fc-pn">Starting at <strong>$11.40/pack</strong> with a 3-pack</p>
+  <div class="gp-fc-gt">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,.6)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+    Love it or we'll make it right — satisfaction guaranteed
+  </div>
+</div>
+
+<script>
+(function(){
+  var ss = '<svg width="WW" height="WW" viewBox="0 0 24 24"><use href="#gp-star"/></svg>';
+  function stars(n, w) {
+    var o = '';
+    for (var i = 0; i < n; i++) o += ss.replace(/WW/g, w);
+    return o;
+  }
+
+  /* Marquee */
+  var items = [
+    ['M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z', 'Engineered for Athletes'],
+    ['M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z', 'Alcohol-Free Formula'],
+    ['M22 11.08V12a10 10 0 1 1-5.93-9.14M22 4l-10 10.01-3-3', 'Removes Eyeblack'],
+    ['M9 12l2 2 4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0z', 'Paraben &amp; Dye Free'],
+    ['M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z', '100% Biodegradable'],
+    ['M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z', 'Cruelty-Free'],
+    ['M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z', 'Eucalyptus Scent'],
+    ['M5 12h14M12 5l7 7-7 7', 'Instant Refresh']
+  ];
+  var mh = '';
+  for (var r = 0; r < 2; r++) {
+    for (var i = 0; i < items.length; i++) {
+      mh += '<span class="gp-mq-i"><span class="gp-mq-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#EF3340" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="' + items[i][0] + '"/></svg></span>' + items[i][1] + '</span><span class="gp-mq-sp">&bull;</span>';
+    }
+  }
+  document.getElementById('gp-mq-track').innerHTML = mh;
+
+  /* Stars hero */
+  document.getElementById('gp-stars-big').innerHTML = stars(5, 20);
+
+  /* Reviews */
+  var revs = [
+    ['I use these after every workout, my skin stays calm. Nothing else I have tried actually works post-sweat without leaving my face feeling tight or greasy.', 'Maya R.', 'M'],
+    ['Best quick wipe for eyeblack removal and locker room clean up. Using them now for baseball and they were great this fall for football.', 'Levi A.', 'L'],
+    ['Bought for my kids to use on bus after practices and games. No longer sitting in their sweat on way home. Great product and smells nice.', 'Adrian M.', 'A'],
+    ['Our son is a soccer goalie and daughter does XC. They each keep a pack in their PE bags and I keep them in my car. We don\'t leave practice until they use one.', 'Ashley G.', 'AG'],
+    ['I\'ll never use paper towels again to take off my eyeblack. These get everything off fast and my skin feels way better after a long game day.', 'Jordan W.', 'J'],
+    ['Finally something that doesn\'t burn when I\'m sweaty. Clean, hydrated, not greasy at all — exactly what I needed for after practice.', 'Emily S.', 'E']
+  ];
+  var rh = '';
+  for (var i = 0; i < revs.length; i++) {
+    rh += '<div class="gp-rv-c"><div class="gp-rv-stars">' + stars(5, 14) + '</div><p class="gp-rv-txt">&ldquo;' + revs[i][0] + '&rdquo;</p><div class="gp-rv-auth"><div class="gp-rv-av">' + revs[i][2] + '</div><div><div class="gp-rv-nm">' + revs[i][1] + '</div><div class="gp-rv-badge">Verified Buyer</div></div></div></div>';
+  }
+  document.getElementById('gp-reviews-grid').innerHTML = rh;
+
+  /* FAQ */
+  var faqs = [
+    ['What makes these different from regular wipes?', 'Most wipes strip or mask. GamePlan wipes cleanse sweat, salt, and oil while reinforcing your skin barrier — so irritation and breakouts don\'t build momentum. This is performance hygiene, not a baby wipe.'],
+    ['Will this dry my skin out?', 'No. The formula is alcohol-free and contains humectants that restore hydration. You\'ll feel clean and refreshed — not tight or dry.'],
+    ['Can I use it to remove eyeblack?', 'Yes — this is one of the most popular use cases. The wipes are large enough and strong enough to remove eyeblack fast without micro-abrasions or irritation.'],
+    ['Is this just for teens or high school athletes?', 'Not at all. It\'s formulated for anyone with an active lifestyle — from high school athletes to NFL players to weekend warriors and fitness enthusiasts. If you sweat, it works for you.'],
+    ['Can I use this on my body too?', 'Yes. The formula is safe for face, neck, head, and body. Many athletes use it for a full wipe-down between practices or on travel days.'],
+    ['Does it contain alcohol?', 'No. We deliberately left alcohol out. It\'s a common ingredient in wipes but it strips your skin barrier — the opposite of what you want post-workout.'],
+    ['How often can I use it?', 'Daily. The formula is gentle enough for everyday use. Most athletes use one wipe per session, keeping a pack in their bag and one in the car.'],
+    ['Is it biodegradable?', 'Yes. The wipe material is 100% Rayon — fully biodegradable. No plastic fibers, no microplastics.']
+  ];
+  var chv = '<svg class="gp-fq-chv" viewBox="0 0 24 24"><use href="#gp-chv"/></svg>';
+  var fh = '';
+  for (var i = 0; i < faqs.length; i++) {
+    var id = 'gp-fq-' + (i + 1);
+    fh += '<div class="gp-fq-i"><input type="checkbox" class="gp-fq-tog" id="' + id + '"><label class="gp-fq-q" for="' + id + '">' + faqs[i][0] + chv + '</label><div class="gp-fq-a"><div class="gp-fq-a-in">' + faqs[i][1] + '</div></div></div>';
+  }
+  document.getElementById('gp-faq-list').innerHTML = fh;
+
+  /* Final CTA — Add to Cart */
+  function gpAddToCart(vid, btn) {
+    var orig = btn.innerHTML;
+    btn.innerHTML = 'Adding...';
+    btn.style.pointerEvents = 'none';
+    fetch('/cart/add.js', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ items: [{ id: parseInt(vid), quantity: 1 }] })
+    })
+    .then(function(r) { return r.json(); })
+    .then(function() {
+      btn.innerHTML = '&#10003; Added!';
+      setTimeout(function() { btn.innerHTML = orig; btn.style.pointerEvents = ''; }, 1800);
+      var cd = document.querySelector('cart-drawer');
+      if (cd && typeof cd.open === 'function') cd.open();
+      document.dispatchEvent(new CustomEvent('cart:refresh'));
+      document.dispatchEvent(new CustomEvent('cart:updated'));
+    })
+    .catch(function() { btn.innerHTML = orig; btn.style.pointerEvents = ''; });
+  }
+
+  var fcBtn = document.getElementById('gp-fc-atc-btn');
+  if (fcBtn) {
+    fcBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      var sel = document.querySelector('form[action="/cart/add"] [name="id"],form[action*="cart"] [name="id"]');
+      if (sel) {
+        gpAddToCart(sel.value, fcBtn);
+      } else {
+        var pdpBtn = document.querySelector('.product-form__submit,form[action="/cart/add"] button[type="submit"]');
+        if (pdpBtn) pdpBtn.click();
+        else window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    });
+  }
+})();
+</script>
+
+{% schema %}
+{
+  "name": "GP PDP Content",
+  "class": "gp-pdp-content-section",
+  "settings": [],
+  "presets": [
+    {
+      "name": "GP PDP Content"
+    }
+  ]
+}
+{% endschema %}

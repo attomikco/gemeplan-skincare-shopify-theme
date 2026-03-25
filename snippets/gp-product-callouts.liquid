@@ -1,0 +1,206 @@
+{% comment %}
+  GamePlan — Product Info Callouts
+  Renders stat pills, feature cards, and use-case pills on the PDP.
+  Usage: {% render 'gp-product-callouts' %}
+{% endcomment %}
+
+<style>
+  .gp-stat-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+  }
+  .gp-stat-box {
+    background: #fff;
+    border: 1.5px solid #EF3340;
+    border-radius: 12px;
+    padding: 14px 10px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .gp-stat-main {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 2px;
+  }
+  .gp-stat-num {
+    font-size: 32px;
+    font-weight: 900;
+    color: #EF3340;
+    line-height: 1;
+  }
+  .gp-stat-unit {
+    font-size: 13px;
+    font-weight: 700;
+    color: #EF3340;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+  .gp-stat-label {
+    font-size: 12px;
+    color: #140A0A;
+    margin-top: 6px;
+    font-weight: 700;
+  }
+
+  .gp-feat-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  .gp-feat-card {
+    background: #fff;
+    border: 1.5px solid #e0dcdc;
+    border-radius: 12px;
+    padding: 14px 12px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    box-sizing: border-box;
+  }
+  .gp-feat-icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    background: #EF3340;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .gp-feat-icon svg {
+    width: 18px;
+    height: 18px;
+  }
+  .gp-feat-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #140A0A;
+    margin-bottom: 3px;
+    line-height: 1.2;
+  }
+  .gp-feat-body {
+    font-size: 12px;
+    color: #888;
+    line-height: 1.5;
+  }
+
+  .gp-use-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #140A0A;
+    margin-bottom: 10px;
+  }
+  .gp-use-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .gp-use-pill {
+    background: #fff;
+    border: 1.5px solid #e0dcdc;
+    border-radius: 30px;
+    padding: 10px 14px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .gp-use-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #EF3340;
+    flex-shrink: 0;
+  }
+</style>
+
+<!-- Stat pills -->
+<div class="gp-stat-row">
+  <div class="gp-stat-box">
+    <div class="gp-stat-main">
+      <span class="gp-stat-num">30</span><span class="gp-stat-unit">wipes</span>
+    </div>
+    <div class="gp-stat-label">Per pack</div>
+  </div>
+  <div class="gp-stat-box">
+    <div class="gp-stat-main">
+      <span class="gp-stat-num">0</span><span class="gp-stat-unit">%</span>
+    </div>
+    <div class="gp-stat-label">Alcohol</div>
+  </div>
+  <div class="gp-stat-box">
+    <div class="gp-stat-main">
+      <span class="gp-stat-num">5</span><span class="gp-stat-unit">in1</span>
+    </div>
+    <div class="gp-stat-label">Steps</div>
+  </div>
+</div>
+
+<!-- Feature cards -->
+<div class="gp-feat-grid">
+  <div class="gp-feat-card">
+    <div class="gp-feat-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+      </svg>
+    </div>
+    <div>
+      <div class="gp-feat-title">Skin Barrier Support</div>
+      <div class="gp-feat-body">Reinforces after friction, heat, and sweat</div>
+    </div>
+  </div>
+  <div class="gp-feat-card">
+    <div class="gp-feat-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M12 6v6l4 2"/>
+      </svg>
+    </div>
+    <div>
+      <div class="gp-feat-title">Instant Refresh</div>
+      <div class="gp-feat-body">Clean skin in seconds — no rinse needed</div>
+    </div>
+  </div>
+  <div class="gp-feat-card">
+    <div class="gp-feat-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+      </svg>
+    </div>
+    <div>
+      <div class="gp-feat-title">Clean Formula</div>
+      <div class="gp-feat-body">No alcohol, parabens, dyes, or sulfates</div>
+    </div>
+  </div>
+  <div class="gp-feat-card">
+    <div class="gp-feat-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+      </svg>
+    </div>
+    <div>
+      <div class="gp-feat-title">Biodegradable</div>
+      <div class="gp-feat-body">100% Rayon — built to break down</div>
+    </div>
+  </div>
+</div>
+
+<!-- Use cases -->
+<div class="gp-use-label">Perfect for</div>
+<div class="gp-use-grid">
+  <div class="gp-use-pill"><span class="gp-use-dot"></span>Post-workout</div>
+  <div class="gp-use-pill"><span class="gp-use-dot"></span>Game day</div>
+  <div class="gp-use-pill"><span class="gp-use-dot"></span>Travel days</div>
+  <div class="gp-use-pill"><span class="gp-use-dot"></span>Locker room</div>
+  <div class="gp-use-pill"><span class="gp-use-dot"></span>Between practices</div>
+  <div class="gp-use-pill"><span class="gp-use-dot"></span>On the go</div>
+</div>

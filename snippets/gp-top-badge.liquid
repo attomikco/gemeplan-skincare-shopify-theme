@@ -1,0 +1,29 @@
+{% comment %}
+  GamePlan — Top Highlight Badge
+  Renders the product highlight tags above the title.
+  Usage: {% render 'gp-top-badge' %}
+{% endcomment %}
+
+<style>
+  .gp-top-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #EF3340;
+    border: 1px solid rgba(239,51,64,0.25);
+    padding: 4px 10px;
+    border-radius: 4px;
+    background: rgba(239,51,64,0.05);
+    font-family: var(--font-body-family);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+</style>
+
+<div class="gp-top-badge">🏃 Post-Sweat · Alcohol-Free · Biodegradable</div>
